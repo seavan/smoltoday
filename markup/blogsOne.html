@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+    <script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./js/customInputs.js"></script>
+    <script type="text/javascript" src="./js/cloneApi.js"></script>
+    
+    <script type="text/javascript" src="./js/placeholder.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/tango/skin.css" rel="stylesheet" type="text/css" />
+    <link href="./css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />  
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+		
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial _closest">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth _closest">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?" class="remember_pass">Забыли пароль?</a>
+                                    <a href="#" title="Забыли пароль?" class="repeat_code" style="display:none;">Повторная активация</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr _closest">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                         <div class="enterForm remember _closest">
+                        	<p>Восстановление пароля</p>
+                            <small>Если вы забыли пароль, воспользуйтесь формой ниже.</small>
+                            <form action="#">
+                            	<div class="field">
+                                    <label for="emailRem" class="_autohide">Ваш e-mail</label>
+                                    <input type="text" id="emailRem" name="emailRem" />
+                                </div>
+                            	<div class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></div>
+                            	<div class="field">
+                                    <label for="f_code" class="_autohide">Введите текст с картинки</label>
+                                    <input type="text" id="f_code" name="f_code" />
+                                </div>
+                                <span class="button">Продолжить</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm repeat _closest">
+                        	<p>Повторная активация</p>
+                            <small>Если вы забыли пароль, воспользуйтесь формой ниже.</small>
+                            <form action="#">
+                            	<div class="field">
+                                    <label for="emailRep" class="_autohide">Ваш e-mail</label>
+                                    <input type="text" id="emailRep" name="emailRep" />
+                                </div>
+                            	<div class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></div>
+                            	<div class="field">
+                                    <label for="f_code2" class="_autohide">Введите текст с картинки</label>
+                                    <input type="text" id="f_code2" name="f_code2" />
+                                </div>
+                                <span class="button">Продолжить</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm no_resume _closest" >
+                        	<p>Откликнуться на вакансию без резюме</p>
+                            <small><b>Вакансия:</b> Менеджер по продажам</small><br/>
+                            <small><b>Компания:</b> РОСИМПОРТ, ООО, Санкт-Петербург</small>
+                            <form action="#">
+                            	<div class="field">   
+                                	<label for="theme" class="_autohide">Тема</label>                                 
+                                    <input type="text" id="theme"/>
+                                </div>
+                                <div class="field">
+                                	<label for="message" class="_autohide">Сообщение</label>   
+                                	<textarea rows="1" cols="1" id="message"></textarea>
+                                </div>
+                                <span class="button">Откликнуться</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock">
+							<p>Поиск по сайту</p>
+							<form action="#">								
+								<label for="search" class="_autohide">например: <i>Кинотеатры</i></label>
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+						<div class="authBlock">      
+							<a href="#" title="Регистрация" class="register">Регистрация</a>							
+							<a href="#" title="Вход" class="enter">Вход</a>
+						</div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+            <div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+							  </td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+            
+			
+            <div class="blogsMenu">
+            	<div class="widthContent">
+                	<ul>
+                    	<li><a href="#" title="Обо всём">Обо всём</a></li>
+                        <li class="cur"><span>Путешествия</span></li>
+                        <li><a href="#" title="Образование">Образование</a></li>
+                        <li><a href="#" title="Хобби">Хобби</a></li>
+                        <li><a href="#" title="Музыка">Музыка</a></li>
+                        <li><a href="#" title="Кино и ТВ">Кино и ТВ</a></li>
+                        <li><a href="#" title="Рецензии">Рецензии</a></li>
+                        <li class="more">
+                        	<span>Ещё</span>
+                            <div class="moreBlogsMenu">
+                            	<ul>
+                                	<li><a href="#" title="Типа ещё меню">Типа ещё меню</a></li>
+                                    <li><a href="#" title="а дизайна нет )">а дизайна нет )</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			<div class="blockContent blogsPage">
+            	
+				<div class="widthContent">
+                    
+					<div class="leftBlock">
+                    
+                    	<div class="blockLine">
+                        
+							<div class="breadcrumbs">
+                            	<ul>
+                                	<li><a href="#" title="Домой">Домой</a> <span>&rarr;</span></li> 
+                                    <li><a href="#" title="Блоги">Блоги</a> <span>&rarr;</span></li>                                                                      
+                                    <li>Серафим Лютый, блог</li>
+                                </ul>
+                            </div>
+						</div>	
+                        
+                        <div class="clear"></div>
+                        <div class="userInfo">
+                        	<img src="images/resume_avatar_2.jpg" width="85" alt="1">
+                          <div class="info">
+                            	<div><a href="#" title="Серафим Лютый" class="name">Серафим Лютый</a></div>
+                                <div class="date">С нами с 9 октября 2012</div>
+                                <div><img src="i/record_ico.png" width="14" height="17" alt=" "><a href="#" title="2 записи в блоге">2 записи в блоге</a><span class="comments">284 комментария</span></div>
+                            </div>
+                        </div>
+                        
+                       
+                      <div class="oneBlog">
+                        	<span class="info">
+                            	<span class="date">12 сентября 2013 в 14:22</span>
+                                
+                                <span class="views">Просмотров: 1024</span>
+                                
+                                <span class="rating">
+                                    <span class="cur">1</span>	
+                                    <span class="cur">2</span>
+                                    <span class="cur">3</span>
+                                    <span class="cur">4</span>
+                                    <span>5</span>										
+                                </span>
+                                
+                                <span class="descr">Рейтинг</span>
+                            </span>
+                            <div class="clear"></div>
+                            
+                            <h3>Прага — столица и крупнейший город Чехии</h3>
+                            <p>Сразу следует оговориться, что «Кьюриосити» не собирается останавливаться на достигнутом. В апреле он уходит в вынужденный «отпуск», вызванный тем, что Марс будет заслонен Солнцем и связь с Землей станет невозможна. После этого, в мае, ученые собираются повторить бурение осадочных пород (того самого «Джона Клейна», камня, выбранного за свои необычные светлые прожилки) и вновь провести анализ полученных образцов. Возможно, «Кьюриосити» проведет даже несколько таких бурений, однако рано или поздно он продолжит свое путешествие к подножию горы Шарп, расположенной в центре кратера Гейла. </p>
+                            
+                            <p><img src="images/blog_1.jpg" width="649" height="487" alt="" />1. Центр Праги. К нам подошли двое полицеских и сказали что нельзя фотографировать. На
+тапочки.</p>
+                            <p>
+                            	<img src="images/blog_2.jpg" width="356" height="238" alt="" />
+                            	Прага в настоящее время подразделяется на 22 административных округа (чеш. obvod) и 57 городских частей (основной субъект местного самоуправления) в их составе. Однако с точки зрения почтового, избирательного, судебного и полицейского административного законодательства она по-прежнему (с 1960 года) делится на 10 городских округов.
+
+                            </p>
+                            
+                        </div>
+                        
+                       
+                        
+                        <!-- комменты -->
+                       	<div class="commentsNews">
+                            <p><strong>Комментарии</strong></p>                            
+                            
+                            <div class="allComments">
+                                
+                                <div class="oneComment">
+                                    <span class="avatar"><a href="#" title="автор"><img src="images/avatar_1.jpg" width="45" height="45" alt="1" /></a></span>
+                                    <div class="commentBody">
+                                        <span class="arrowBuble"></span>
+                                        <span class="datetime">14 мая 14:45</span>
+                                       
+                                        Мне всё понравилось, и хорошо, что у вас тут нет смайликов. Смайликами пользуются средних умов люди. неспособные словами выражать свои эмоции и мысли. Да.
+                                        
+                                        <p><i><a href="mailto:ivan@ivanov.com">Иван Иванович</a></i></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="oneComment">
+                                    <span class="avatar"><a href="#" title="автор"><img src="images/avatar_2.jpg" width="45" height="45" alt="2" /></a></span>
+                                    <div class="commentBody">
+                                        <span class="arrowBuble"></span>
+                                        <span class="datetime">14 мая 14:45</span>
+                                        
+                                        
+                                         Такие микроорганизмы хорошо известны на Земле — они переводят одно вещество в другое и извлекают из этого энергию. Исследования показали, что они могли существовать и на Марсе.
+                                         <p><i>Константин Петровский, геолог</i></p>
+                                    </div>
+                                </div>                                
+                                
+                                
+                                <p class="formHeader">Написать комментарий</p>
+                                <div class="oneComment">
+                                    
+                                    <form action="#">
+                                        <div class="commentBody _input">
+                                            <span class="label">Email:</span>
+                                            <label for="email" class="_autohide">Введите адрес свой почты</label>
+                                            <input name="email" id="email" type="text" />
+                                        </div>
+                                        <div class="commentBody _textarea">
+                                            <span class="label">Отзыв:</span>
+                                            <label for="commentText" class="_autohide">Текст отзыва</label>
+                                            <textarea name="commentText" id="commentText"></textarea>
+                                        </div>
+                                        <small>Все комментарии модерируются</small>
+                                        <span class="button" onClick="$(this).parent().submit();">Опубликовать</span>
+                                    </form>
+                                </div>
+                            </div>                            
+                    	</div>		
+                        <!-- /комменты -->	
+                        
+                    </div>
+                    <div class="rightBlock">	
+                    	
+                        <div class="beginBlog">
+                        	<span class="button begin">Начать</span>
+                        </div>
+                        
+                        <div class="banner"><a href="#" title="MTS"><img src="images/mts_left.jpg" width="240" height="400" alt="MTS" /></a></div>
+                                        	
+                        <dl class="blogs">
+							<dt>Последние просмотренные</dt>
+							<dd>
+								<a href="#" title="Зарплаты чиновников вырастут на 146% шок, видео, фото, без смс">Зарплаты чиновников вырастут на 146% шок, видео, фото, без смс</a>
+								<i>Егор Добронравов, юрист</i>
+							</dd>
+							<dd>
+								<a href="#" title="Мы строили строили, и наконец построили!">Мы строили строили, и наконец построили!</a>
+								<i>Чебурашка, ловеренное лицо В.В. Познера</i>
+							</dd>
+							<dd>
+								<a href="#" title="Куда подевалась группа Army of Lovers? Уж мы-то знаем!">Куда подевалась группа Army of Lovers? Уж мы-то знаем!</a>
+								<i>Кирилл Гундяев, бизнесмен</i>
+							</dd>
+						</dl>
+                        
+                        <dl class="jobs">
+							<dt>Работа в смоленске</dt>
+							<dd>
+								<a href="#" title="">Менеджер по продажам</a>
+								<span>30 000</span>
+								<small>р./мес</small>
+								<a href="#" title="">и ещё 1 043 вакансий</a>
+							</dd>
+						</dl>	
+                    </div>
+            	</div>
+            </div>
+					
+         	<div class="most_discussed">
+              <div class="waveEdge"></div>
+            </div>
+		 	
+		    
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="Inner.Master" %>
+<%@ Import Namespace="meridian.smolensk.system" %>
+<%@ Import Namespace="smolensk.Mappers" %>
+
+<asp:Content ID="Title1" runat="server" ContentPlaceHolderID="Title">
+    <asp:ContentPlaceHolder ID="Title" runat="server">Все о Смоленске - SmolToday.RU</asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content0" runat="server" ContentPlaceHolderID="ContentCssClass">blogsPage</asp:Content>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TopContent" runat="server">
+    
+     <asp:ContentPlaceHolder runat="server" ID="TopContentBlog"></asp:ContentPlaceHolder>
+     
+     <% Html.RenderAction("CategoryMenu"); %>
+
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="BreadCrumbs" runat="server"></asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="LeftBlockContent" runat="server">
+   
+    <div class="blockLine">
+        <%: Html.MvcSiteMap().SiteMapPath() %>  
+    </div>
+
+    <asp:ContentPlaceHolder runat="server" ID="Blog"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="RightBlockContent" runat="server">
+    
+    <asp:ContentPlaceHolder runat="server" ID="RightBlockHeader"></asp:ContentPlaceHolder>
+    
+    <% Html.RenderAction("LastViewsList"); %>
+    
+    <% Html.RenderPartial("Blocks/JobInSmolensk"); %>
+
+    <asp:ContentPlaceHolder runat="server" ID="RightBlockBottom"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="BottomContent" runat="server"></asp:Content>

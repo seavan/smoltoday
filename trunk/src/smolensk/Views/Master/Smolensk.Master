@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="smolensk.Models.CodeModels.Security" %>
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <asp:ContentPlaceHolder runat="server" ID="Meta">
+    <%--<meta property="vk:image" content="http://dynamotv.ru/content/i/shareImg.png" />
+    <meta property="og:image" content="http://dynamotv.ru/content/i/shareImg.png"/>--%>        
+    </asp:ContentPlaceHolder>
+    <title><asp:ContentPlaceHolder ID="Title" runat="server">Все о Смоленске - SmolToday.RU</asp:ContentPlaceHolder></title>
+
+    <script type="text/javascript" src="/content/js/jquery.js"></script>
+	<script type="text/javascript" src="/content/js/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript" src="/content/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.ddslick.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="/content/js/ajaxUpload.js"></script>
+    <script type="text/javascript" src="/content/js/ajaxForms.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="/content/js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="/content/js/cloneApi.js"></script>
+    <script type="text/javascript" src="/content/js/customInputs.js"></script>
+    <script type="text/javascript" src="/content/js/placeholder.js"></script>
+    <script type="text/javascript" src="/content/js/autoComplete.js"></script>
+    
+    <script type="text/javascript" src="/content/js/fancybox/jquery.easing-1.3.pack.js"></script>
+    <script type="text/javascript" src="/content/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="/content/css/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 
+
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU&coordorder=longlat" type="text/javascript"></script> <%--задана последовательность долгота, широта--%>
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+    
+    <%--<link href="/content/css/tango/skin.css" rel="stylesheet" type="text/css" />--%>
+    <link href="/content/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/content/css/ui-lightness/jquery-ui.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link href="/content/css/style.css?v=9" rel="stylesheet" type="text/css" />
+    <link href="/content/css/work.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="/content/js/main.js?v12"></script>
+    <%--<script type="text/javascript" src="//vk.com/js/api/openapi.js?71"></script>--%>
+    <script type="text/javascript">var smolenskGlobal = {};</script>    
+
+    <asp:ContentPlaceHolder runat="server" ID="Scripts">
+
+    </asp:ContentPlaceHolder>
+    
+    
+    
+</head>
+<body>
+    <div class="all">
+        <div class="widthSite">
+            <asp:ContentPlaceHolder runat="server" ID="HeaderOverride">
+                
+                <div class="overlayBlock">
+                    <div class="overlayLayer"></div>
+                
+                    <div class="overlayForm">
+                        <span class="close"></span>
+                    
+                        <div class="formBody">
+                            <div class="enterSocial _closest">
+                                <p>Войти как пользователь</p>
+                                <span class="socialLinks">
+                                    <a href="<%: OAuthFbService.SignInUrl%>" class="facebook" title="facebook">facebook</a>
+                                    <a href="<%: OAuthGpService.SignInUrl%>" class="google" title="google">google</a>
+					                <a href="<%: OAuthVkService.SignInUrl %>" class="vk" title="vkontakte">vkontakte</a>
+                                </span>
+                            </div>
+                
+                            <% Html.RenderPartial("Widgets/Authorization", new UserAuthenticationModel()); %>
+                        
+                            <% Html.RenderPartial("Widgets/Registration", new UserRegistrationModel()); %>   
+            
+                            <% Html.RenderPartial("Widgets/Remember", new RegainModel()); %>   <%--// восстановление пароля--%>
+            
+                            <% Html.RenderPartial("Widgets/Remember", new RegainModel(){repeatActivation = true}); %>   <%--// повторная активация--%>
+            
+                            <%--<% Html.RenderPartial("Widgets/NoResumeForm"); %>--%>
+
+                            <%--<% Html.RenderPartial("Widgets/ResumeSend"); %>--%>
+            
+                            <div class="getsession _closest">
+                                <asp:ContentPlaceHolder runat="server" ID="popUpBlock"></asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <% Html.RenderPartial("Header"); %>
+            <% Html.RenderPartial("BlockHeader"); %>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder runat="server" ID="Content"></asp:ContentPlaceHolder>
+            
+            <asp:ContentPlaceHolder runat="server" ID="FooterOverride">
+            <% Html.RenderPartial("Footer"); %>
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>

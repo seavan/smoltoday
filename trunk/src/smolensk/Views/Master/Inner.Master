@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="Smolensk.Master" %>
+
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="Content">
+    
+    <asp:ContentPlaceHolder runat="server" ID="TopContent"></asp:ContentPlaceHolder>
+
+    <div class="blockContent <asp:ContentPlaceHolder runat="server" ID="ContentCssClass"></asp:ContentPlaceHolder>">
+
+        <div class="widthContent">
+            
+            <asp:ContentPlaceHolder runat="server" ID="BreadCrumbs"></asp:ContentPlaceHolder>
+
+            <div class="leftBlock">
+                <asp:ContentPlaceHolder runat="server" ID="LeftBlockContent"></asp:ContentPlaceHolder>
+            </div>
+            
+            <div class="rightBlock">
+                <asp:ContentPlaceHolder runat="server" ID="RightBlockContent"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="waveEdge"></div>
+    </div>
+    
+    <asp:ContentPlaceHolder runat="server" ID="BottomContent"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Scripts1" runat="server" ContentPlaceHolderID="Scripts">
+    
+    <asp:ContentPlaceHolder runat="server" ID="InnerScripts"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="popUpBlock1" runat="server" ContentPlaceHolderID="popUpBlock">
+    
+    <asp:ContentPlaceHolder runat="server" ID="popUpLayer"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Title1" runat="server" ContentPlaceHolderID="Title">
+    <asp:ContentPlaceHolder ID="Title" runat="server">Все о Смоленске - SmolToday.RU</asp:ContentPlaceHolder>
+</asp:Content>

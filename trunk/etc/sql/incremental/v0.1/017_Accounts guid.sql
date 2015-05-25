@@ -1,0 +1,3 @@
+SET NAMES utf8;
+
+ALTER TABLE `accounts` CHANGE COLUMN `facebook_id` `facebook_id` VARCHAR(40) NULL DEFAULT NULL  , CHANGE COLUMN `vk_id` `vk_id` VARCHAR(40) NULL DEFAULT NULL  , CHANGE COLUMN `google_id` `google_id` VARCHAR(40) NULL DEFAULT NULL  ;

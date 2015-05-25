@@ -1,0 +1,3 @@
+﻿SET NAMES utf8;
+
+ALTER TABLE `smolensk`.`ad_photos` CHANGE COLUMN `preview` `preview` VARCHAR(64) NULL DEFAULT NULL  , CHANGE COLUMN `photo` `photo` VARCHAR(64) NULL DEFAULT NULL  , ADD COLUMN `original` VARCHAR(64) NULL DEFAULT NULL  AFTER `photo` ;

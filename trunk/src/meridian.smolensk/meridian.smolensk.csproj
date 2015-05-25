@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CB8E844-1FB7-4F50-888F-0C83F747B364}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>meridian.smolensk</RootNamespace>
+    <AssemblyName>meridian.smolensk</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CuttingEdge.Conditions, Version=1.2.0.11174, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\etc\lib\CuttingEdge.Conditions.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\etc\lib\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="meridian.core">
+      <HintPath>..\..\etc\lib\meridian\meridian.core.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\etc\lib\meridian\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controller\admin_regions.cs" />
+    <Compile Include="controller\admin_vacancy_professionals.cs" />
+    <Compile Include="controller\meridian_accounts.cs" />
+    <Compile Include="controller\meridian_accounts_favorites.cs" />
+    <Compile Include="controller\meridian_account_roles.cs" />
+    <Compile Include="controller\meridian_actions.cs" />
+    <Compile Include="controller\meridian_actions_comments.cs" />
+    <Compile Include="controller\meridian_actions_genres.cs" />
+    <Compile Include="controller\meridian_actions_photos.cs" />
+    <Compile Include="controller\meridian_actions_places.cs" />
+    <Compile Include="controller\meridian_actions_rating.cs" />
+    <Compile Include="controller\meridian_actions_schedule.cs" />
+    <Compile Include="controller\meridian_action_categories.cs" />
+    <Compile Include="controller\meridian_ad_advertisments.cs" />
+    <Compile Include="controller\meridian_ad_advert_requests.cs" />
+    <Compile Include="controller\meridian_ad_categories.cs" />
+    <Compile Include="controller\meridian_ad_fields.cs" />
+    <Compile Include="controller\meridian_ad_field_descriptions.cs" />
+    <Compile Include="controller\meridian_ad_lookup_values.cs" />
+    <Compile Include="controller\meridian_ad_photos.cs" />
+    <Compile Include="controller\meridian_blogs.cs" />
+    <Compile Include="controller\meridian_blog_categories.cs" />
+    <Compile Include="controller\meridian_blog_comments.cs" />
+    <Compile Include="controller\meridian_blog_lastviews.cs" />
+    <Compile Include="controller\meridian_blog_marks.cs" />
+    <Compile Include="controller\meridian_blog_photos.cs" />
+    <Compile Include="controller\meridian_cities.cs" />
+    <Compile Include="controller\meridian_city_prices.cs" />
+    <Compile Include="controller\meridian_city_prices_icons.cs" />
+    <Compile Include="controller\meridian_comments_news.cs" />
+    <Compile Include="controller\meridian_companies.cs" />
+    <Compile Include="controller\meridian_companies_kind_activities.cs" />
+    <Compile Include="controller\meridian_company_categories.cs" />
+    <Compile Include="controller\meridian_company_comments.cs" />
+    <Compile Include="controller\meridian_company_files.cs" />
+    <Compile Include="controller\meridian_company_kind_activities.cs" />
+    <Compile Include="controller\meridian_company_ownerships.cs" />
+    <Compile Include="controller\meridian_company_photos.cs" />
+    <Compile Include="controller\meridian_company_rating.cs" />
+    <Compile Include="controller\meridian_genres.cs" />
+    <Compile Include="controller\meridian_main_page_widgets.cs" />
+    <Compile Include="controller\meridian_my_messages.cs" />
+    <Compile Include="controller\meridian_news.cs" />
+    <Compile Include="controller\meridian_news_categories.cs" />
+    <Compile Include="controller\meridian_news_images.cs" />
+    <Compile Include="controller\meridian_news_marks.cs" />
+    <Compile Include="controller\meridian_news_videos.cs" />
+    <Compile Include="controller\meridian_pages.cs" />
+    <Compile Include="controller\meridian_pages_files.cs" />
+    <Compile Include="controller\meridian_photobank_cart.cs" />
+    <Compile Include="controller\meridian_photobank_categories.cs" />
+    <Compile Include="controller\meridian_photobank_licenses.cs" />
+    <Compile Include="controller\meridian_photobank_obtained.cs" />
+    <Compile Include="controller\meridian_photobank_photos.cs" />
+    <Compile Include="controller\meridian_photobank_photos_rating.cs" />
+    <Compile Include="controller\meridian_photobank_photo_prices.cs" />
+    <Compile Include="controller\meridian_photobank_photo_tags.cs" />
+    <Compile Include="controller\meridian_photobank_related_photos.cs" />
+    <Compile Include="controller\meridian_photobank_tags.cs" />
+    <Compile Include="controller\meridian_photobank_user_albums.cs" />
+    <Compile Include="controller\meridian_places.cs" />
+    <Compile Include="controller\meridian_places_rating.cs" />
+    <Compile Include="controller\meridian_quizzes.cs" />
+    <Compile Include="controller\meridian_quiz_options.cs" />
+    <Compile Include="controller\meridian_quiz_results.cs" />
+    <Compile Include="controller\meridian_regions.cs" />
+    <Compile Include="controller\meridian_restaurants.cs" />
+    <Compile Include="controller\meridian_restaurants_entries.cs" />
+    <Compile Include="controller\meridian_restaurants_reserve.cs" />
+    <Compile Include="controller\meridian_restaurant_comments.cs" />
+    <Compile Include="controller\meridian_restaurant_entries.cs" />
+    <Compile Include="controller\meridian_restaurant_entry_categories.cs" />
+    <Compile Include="controller\meridian_restaurant_events.cs" />
+    <Compile Include="controller\meridian_restaurant_photos.cs" />
+    <Compile Include="controller\meridian_restaurant_rating.cs" />
+    <Compile Include="controller\meridian_resumes.cs" />
+    <Compile Include="controller\meridian_resumes_entries.cs" />
+    <Compile Include="controller\meridian_resumes_facilities.cs" />
+    <Compile Include="controller\meridian_resumes_professionals.cs" />
+    <Compile Include="controller\meridian_resume_educations.cs" />
+    <Compile Include="controller\meridian_resume_links.cs" />
+    <Compile Include="controller\meridian_resume_trainings.cs" />
+    <Compile Include="controller\meridian_resume_works.cs" />
+    <Compile Include="controller\meridian_sales.cs" />
+    <Compile Include="controller\meridian_sales_comments.cs" />
+    <Compile Include="controller\meridian_sale_categories.cs" />
+    <Compile Include="controller\meridian_sale_types.cs" />
+    <Compile Include="controller\meridian_vacancies.cs" />
+    <Compile Include="controller\meridian_vacancies_entries.cs" />
+    <Compile Include="controller\meridian_vacancies_facilities.cs" />
+    <Compile Include="controller\meridian_vacancies_professionals.cs" />
+    <Compile Include="controller\meridian_vacancy_entries.cs" />
+    <Compile Include="controller\meridian_vacancy_entry_categories.cs" />
+    <Compile Include="controller\meridian_vacancy_facilities.cs" />
+    <Compile Include="controller\meridian_vacancy_facility_variants.cs" />
+    <Compile Include="controller\meridian_vacancy_professionals.cs" />
+    <Compile Include="impl\accounts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\accountsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\accounts_favoritesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\account_roles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\account_rolesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actionsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_comments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_commentsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_photos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_photosStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_rating.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_ratingStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\actions_schedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\action_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_advertisments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_advertismentsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_categoriesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_fields.cs" />
+    <Compile Include="impl\ad_fieldsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_field_descriptions.cs" />
+    <Compile Include="impl\ad_field_descriptionsStore.cs" />
+    <Compile Include="impl\ad_lookup_values.cs" />
+    <Compile Include="impl\ad_photos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\ad_photosStore.cs" />
+    <Compile Include="impl\Aspects\ActionsPhotosAspect.cs" />
+    <Compile Include="impl\Aspects\AdvertsPhotosAspect.cs" />
+    <Compile Include="impl\Aspects\AttachedOnePhoto.cs" />
+    <Compile Include="impl\Aspects\AttachedPhotoAspect.cs" />
+    <Compile Include="impl\Aspects\CompaniesPhotosAspect.cs" />
+    <Compile Include="impl\Aspects\OneToManyAspect.cs" />
+    <Compile Include="impl\Aspects\PhotoBanksPhotosAspect.cs" />
+    <Compile Include="impl\Aspects\RestaurantsPhotosAspect.cs" />
+    <Compile Include="impl\Aspects\OnePhotoAspect.cs" />
+    <Compile Include="impl\Aspects\ScheduleAspect.cs" />
+    <Compile Include="impl\blogs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\blogsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\blog_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\blog_comments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\blog_commentsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\blog_marks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\blog_marksStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\cities.cs" />
+    <Compile Include="impl\city_prices.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\city_prices_icons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\comments_news.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\comments_newsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\companies.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\companiesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_categoriesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_comments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_commentsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_kind_activities.cs" />
+    <Compile Include="impl\company_kind_activitiesStore.cs" />
+    <Compile Include="impl\company_ownerships.cs" />
+    <Compile Include="impl\company_photos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_rating.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\company_ratingStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\genres.cs" />
+    <Compile Include="impl\Images\AbstractImageMarkupProcessor.cs" />
+    <Compile Include="impl\Images\BlogsImageHandler.cs" />
+    <Compile Include="impl\Images\BlogsImageMarkupProcessor.cs" />
+    <Compile Include="impl\Images\BlogsImageMarkupProcessorSettings.cs" />
+    <Compile Include="impl\Images\EntityContentHandler.cs" />
+    <Compile Include="impl\Images\HtmlImageInfo.cs" />
+    <Compile Include="impl\Images\HtmlMarkupHelper.cs" />
+    <Compile Include="impl\Aspects\Aspect.cs" />
+    <Compile Include="impl\Interfaces\IAttachedPhotoAspect.cs" />
+    <Compile Include="impl\Interfaces\IMarkableMaterial.cs" />
+    <Compile Include="impl\Aspects\DictionaryAspect.cs" />
+    <Compile Include="impl\Interfaces\IAspect.cs" />
+    <Compile Include="impl\Interfaces\IAttachedPhoto.cs" />
+    <Compile Include="impl\Interfaces\IBreadCrumbsProvider.cs" />
+    <Compile Include="impl\Interfaces\ICommentableMaterial.cs" />
+    <Compile Include="impl\Interfaces\IDictionaryCategory.cs" />
+    <Compile Include="impl\Interfaces\IDictionaryValue.cs" />
+    <Compile Include="impl\Interfaces\IDictionaryValuesAspect.cs" />
+    <Compile Include="impl\Interfaces\IDictionaryValuesAspectProvider.cs" />
+    <Compile Include="impl\Interfaces\IFavorite.cs" />
+    <Compile Include="impl\Interfaces\IGeoLocation.cs" />
+    <Compile Include="impl\Interfaces\IGeolocationAware.cs" />
+    <Compile Include="impl\Interfaces\ILookupValue.cs" />
+    <Compile Include="impl\Interfaces\ILookupValueAspect.cs" />
+    <Compile Include="impl\Interfaces\IMainSlider.cs" />
+    <Compile Include="impl\Interfaces\INavigateableItem.cs" />
+    <Compile Include="impl\Interfaces\IImageByTheme.cs" />
+    <Compile Include="impl\Interfaces\IOneToManyAspect.cs" />
+    <Compile Include="impl\Interfaces\IPopularityMaterial.cs" />
+    <Compile Include="impl\Interfaces\IScheduleAspect.cs" />
+    <Compile Include="impl\Interfaces\ISocialLinks.cs" />
+    <Compile Include="impl\Interfaces\IVacancyOrResume.cs" />
+    <Compile Include="impl\Interfaces\IValueListAspect.cs" />
+    <Compile Include="impl\Interfaces\IValueListAspectProvider.cs" />
+    <Compile Include="impl\Interfaces\IValueListItem.cs" />
+    <Compile Include="impl\Interfaces\IViewableMaterial.cs" />
+    <Compile Include="impl\Aspects\LookupAspect.cs" />
+    <Compile Include="impl\Interfaces\NavigateableItemDummy.cs" />
+    <Compile Include="impl\Images\NewsImageMarkupProcessor.cs" />
+    <Compile Include="impl\Images\NewsImageMarkupProcessorSettings.cs" />
+    <Compile Include="impl\Images\NewsImageHandler.cs" />
+    <Compile Include="impl\Interfaces\IComment.cs" />
+    <Compile Include="impl\Interfaces\ICommentable.cs" />
+    <Compile Include="impl\Interfaces\IMark.cs" />
+    <Compile Include="impl\Interfaces\IMarkable.cs" />
+    <Compile Include="impl\main_page_widgets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\main_page_widgetsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\my_messagesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\newsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_categoriesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_images.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_imagesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_marks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_marksStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_videos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\news_videosStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\pages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\pagesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_obtained.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_obtainedStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_photos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_photosStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_photos_rating.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_photos_ratingStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_photo_prices.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_photo_tagsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_related_photos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_related_photosStore.cs" />
+    <Compile Include="impl\photobank_user_albums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\photobank_user_albumsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\places.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\places_rating.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\places_ratingStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\quizzes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\quizzesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\regions.cs" />
+    <Compile Include="impl\restarauntsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurants_entries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_comments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_commentsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_entries.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_entriesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_entry_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_events.cs" />
+    <Compile Include="impl\restaurant_photos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_photosStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_rating.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\restaurant_ratingStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\resumes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\sales.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\salesStore.cs" />
+    <Compile Include="impl\sales_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\sales_comments.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\sales_commentsStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\sale_categories.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\sale_types.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\vacancies.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\vacancies_entries.cs" />
+    <Compile Include="impl\vacancies_facilities.cs" />
+    <Compile Include="impl\vacancies_professionals.cs" />
+    <Compile Include="impl\vacancy_entries.cs" />
+    <Compile Include="impl\vacancy_entriesStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\vacancy_entry_categories.cs" />
+    <Compile Include="impl\vacancy_entry_categoriesStore.cs" />
+    <Compile Include="impl\vacancy_facilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="impl\vacancy_facility_variants.cs" />
+    <Compile Include="impl\Video\HtmlVideoInfo.cs" />
+    <Compile Include="impl\Video\IVideoImageProvider.cs" />
+    <Compile Include="impl\Video\NewsVideoHandler.cs" />
+    <Compile Include="impl\Video\VideoMarkupProcessor.cs" />
+    <Compile Include="impl\Video\VideoMarkupProcessorSettings.cs" />
+    <Compile Include="impl\Video\YoutubeImageProvider.cs" />
+    <Compile Include="meta_impl\accounts.meta.cs" />
+    <Compile Include="meta_impl\accounts_favorites.meta.cs" />
+    <Compile Include="meta_impl\account_roles.meta.cs" />
+    <Compile Include="meta_impl\actions.meta.cs" />
+    <Compile Include="meta_impl\actions_comments.meta.cs" />
+    <Compile Include="meta_impl\actions_genres.meta.cs" />
+    <Compile Include="meta_impl\actions_photos.meta.cs" />
+    <Compile Include="meta_impl\actions_places.meta.cs" />
+    <Compile Include="meta_impl\actions_rating.meta.cs" />
+    <Compile Include="meta_impl\actions_schedule.meta.cs" />
+    <Compile Include="meta_impl\action_categories.meta.cs" />
+    <Compile Include="meta_impl\ad_advertisments.meta.cs" />
+    <Compile Include="meta_impl\ad_advert_requests.meta.cs" />
+    <Compile Include="meta_impl\ad_categories.meta.cs" />
+    <Compile Include="meta_impl\ad_fields.meta.cs" />
+    <Compile Include="meta_impl\ad_field_descriptions.meta.cs" />
+    <Compile Include="meta_impl\ad_lookup_values.meta.cs" />
+    <Compile Include="meta_impl\ad_photos.meta.cs" />
+    <Compile Include="meta_impl\blogs.meta.cs" />
+    <Compile Include="meta_impl\blog_categories.meta.cs" />
+    <Compile Include="meta_impl\blog_comments.meta.cs" />
+    <Compile Include="meta_impl\blog_lastviews.meta.cs" />
+    <Compile Include="meta_impl\blog_marks.meta.cs" />
+    <Compile Include="meta_impl\blog_photos.meta.cs" />
+    <Compile Include="meta_impl\cities.meta.cs" />
+    <Compile Include="meta_impl\city_prices.meta.cs" />
+    <Compile Include="meta_impl\city_prices_icons.meta.cs" />
+    <Compile Include="meta_impl\comments.meta_base.cs" />
+    <Compile Include="meta_impl\comments_news.meta.cs" />
+    <Compile Include="meta_impl\companies.meta.cs" />
+    <Compile Include="meta_impl\companies_kind_activities.meta.cs" />
+    <Compile Include="meta_impl\company_categories.meta.cs" />
+    <Compile Include="meta_impl\company_comments.meta.cs" />
+    <Compile Include="meta_impl\company_files.meta.cs" />
+    <Compile Include="meta_impl\company_kind_activities.meta.cs" />
+    <Compile Include="meta_impl\company_ownerships.meta.cs" />
+    <Compile Include="meta_impl\company_photos.meta.cs" />
+    <Compile Include="meta_impl\company_rating.meta.cs" />
+    <Compile Include="meta_impl\genres.meta.cs" />
+    <Compile Include="meta_impl\main_page_widgets.meta.cs" />
+    <Compile Include="meta_impl\my_messages.meta.cs" />
+    <Compile Include="meta_impl\news.meta.cs" />
+    <Compile Include="meta_impl\news_categories.meta.cs" />
+    <Compile Include="meta_impl\news_images.meta.cs" />
+    <Compile Include="meta_impl\news_marks.meta.cs" />
+    <Compile Include="meta_impl\news_videos.meta.cs" />
+    <Compile Include="meta_impl\pages.meta.cs" />
+    <Compile Include="meta_impl\pages_files.meta.cs" />
+    <Compile Include="meta_impl\photobank_cart.meta.cs" />
+    <Compile Include="meta_impl\photobank_categories.meta.cs" />
+    <Compile Include="meta_impl\photobank_licenses.meta.cs" />
+    <Compile Include="meta_impl\photobank_obtained.meta.cs" />
+    <Compile Include="meta_impl\photobank_photos.meta.cs" />
+    <Compile Include="meta_impl\photobank_photos_rating.meta.cs" />
+    <Compile Include="meta_impl\photobank_photo_prices.meta.cs" />
+    <Compile Include="meta_impl\photobank_photo_tags.meta.cs" />
+    <Compile Include="meta_impl\photobank_related_photos.meta.cs" />
+    <Compile Include="meta_impl\photobank_tags.meta.cs" />
+    <Compile Include="meta_impl\photobank_user_albums.meta.cs" />
+    <Compile Include="meta_impl\places.meta.cs" />
+    <Compile Include="meta_impl\places_rating.meta.cs" />
+    <Compile Include="meta_impl\quizzes.meta.cs" />
+    <Compile Include="meta_impl\quiz_options.meta.cs" />
+    <Compile Include="meta_impl\quiz_results.meta.cs" />
+    <Compile Include="meta_impl\regions.meta.cs" />
+    <Compile Include="meta_impl\restaurants.meta.cs" />
+    <Compile Include="meta_impl\restaurants_entries.meta.cs" />
+    <Compile Include="meta_impl\restaurants_reserve.meta.cs" />
+    <Compile Include="meta_impl\restaurant_comments.meta.cs" />
+    <Compile Include="meta_impl\restaurant_entries.meta.cs" />
+    <Compile Include="meta_impl\restaurant_entry_categories.meta.cs" />
+    <Compile Include="meta_impl\restaurant_events.meta.cs" />
+    <Compile Include="meta_impl\restaurant_photos.meta.cs" />
+    <Compile Include="meta_impl\restaurant_rating.meta.cs" />
+    <Compile Include="meta_impl\resumes.meta.cs" />
+    <Compile Include="meta_impl\resumes_entries.meta.cs" />
+    <Compile Include="meta_impl\resumes_facilities.meta.cs" />
+    <Compile Include="meta_impl\resumes_professionals.meta.cs" />
+    <Compile Include="meta_impl\resume_educations.meta.cs" />
+    <Compile Include="meta_impl\resume_links.meta.cs" />
+    <Compile Include="meta_impl\resume_trainings.meta.cs" />
+    <Compile Include="meta_impl\resume_works.meta.cs" />
+    <Compile Include="meta_impl\sales.meta.cs" />
+    <Compile Include="meta_impl\sales_comments.meta.cs" />
+    <Compile Include="meta_impl\sale_categories.meta.cs" />
+    <Compile Include="meta_impl\sale_types.meta.cs" />
+    <Compile Include="meta_impl\vacancies.meta.cs" />
+    <Compile Include="meta_impl\vacancies_entries.meta.cs" />
+    <Compile Include="meta_impl\vacancies_facilities.meta.cs" />
+    <Compile Include="meta_impl\vacancies_professionals.meta.cs" />
+    <Compile Include="meta_impl\vacancy_entries.meta.cs" />
+    <Compile Include="meta_impl\vacancy_entry_categories.meta.cs" />
+    <Compile Include="meta_impl\vacancy_facilities.meta.cs" />
+    <Compile Include="meta_impl\vacancy_facility_variants.meta.cs" />
+    <Compile Include="meta_impl\vacancy_professionals.meta.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="protoStore\accountsStore.cs" />
+    <Compile Include="protoStore\accounts_favoritesStore.cs" />
+    <Compile Include="protoStore\account_rolesStore.cs" />
+    <Compile Include="protoStore\actionsStore.cs" />
+    <Compile Include="protoStore\actions_commentsStore.cs" />
+    <Compile Include="protoStore\actions_genresStore.cs" />
+    <Compile Include="protoStore\actions_photosStore.cs" />
+    <Compile Include="protoStore\actions_placesStore.cs" />
+    <Compile Include="protoStore\actions_ratingStore.cs" />
+    <Compile Include="protoStore\actions_scheduleStore.cs" />
+    <Compile Include="protoStore\action_categoriesStore.cs" />
+    <Compile Include="protoStore\ad_advertismentsStore.cs" />
+    <Compile Include="protoStore\ad_advert_requestsStore.cs" />
+    <Compile Include="protoStore\ad_categoriesStore.cs" />
+    <Compile Include="protoStore\ad_fieldsStore.cs" />
+    <Compile Include="protoStore\ad_field_descriptionsStore.cs" />
+    <Compile Include="protoStore\ad_lookup_valuesStore.cs" />
+    <Compile Include="protoStore\ad_photosStore.cs" />
+    <Compile Include="protoStore\blogsStore.cs" />
+    <Compile Include="protoStore\blog_categoriesStore.cs" />
+    <Compile Include="protoStore\blog_commentsStore.cs" />
+    <Compile Include="protoStore\blog_lastviewsStore.cs" />
+    <Compile Include="protoStore\blog_marksStore.cs" />
+    <Compile Include="protoStore\blog_photosStore.cs" />
+    <Compile Include="protoStore\citiesStore.cs" />
+    <Compile Include="protoStore\city_pricesStore.cs" />
+    <Compile Include="protoStore\city_prices_iconsStore.cs" />
+    <Compile Include="protoStore\comments_newsStore.cs" />
+    <Compile Include="protoStore\companiesStore.cs" />
+    <Compile Include="protoStore\companies_kind_activitiesStore.cs" />
+    <Compile Include="protoStore\company_categoriesStore.cs" />
+    <Compile Include="protoStore\company_commentsStore.cs" />
+    <Compile Include="protoStore\company_filesStore.cs" />
+    <Compile Include="protoStore\company_kind_activitiesStore.cs" />
+    <Compile Include="protoStore\company_ownershipsStore.cs" />
+    <Compile Include="protoStore\company_photosStore.cs" />
+    <Compile Include="protoStore\company_ratingStore.cs" />
+    <Compile Include="protoStore\genresStore.cs" />
+    <Compile Include="protoStore\main_page_widgetsStore.cs" />
+    <Compile Include="protoStore\my_messagesStore.cs" />
+    <Compile Include="protoStore\newsStore.cs" />
+    <Compile Include="protoStore\news_categoriesStore.cs" />
+    <Compile Include="protoStore\news_imagesStore.cs" />
+    <Compile Include="protoStore\news_marksStore.cs" />
+    <Compile Include="protoStore\news_videosStore.cs" />
+    <Compile Include="protoStore\pagesStore.cs" />
+    <Compile Include="protoStore\pages_filesStore.cs" />
+    <Compile Include="protoStore\photobank_cartStore.cs" />
+    <Compile Include="protoStore\photobank_categoriesStore.cs" />
+    <Compile Include="protoStore\photobank_licensesStore.cs" />
+    <Compile Include="protoStore\photobank_obtainedStore.cs" />
+    <Compile Include="protoStore\photobank_photosStore.cs" />
+    <Compile Include="protoStore\photobank_photos_ratingStore.cs" />
+    <Compile Include="protoStore\photobank_photo_pricesStore.cs" />
+    <Compile Include="protoStore\photobank_photo_tagsStore.cs" />
+    <Compile Include="protoStore\photobank_related_photosStore.cs" />
+    <Compile Include="protoStore\photobank_tagsStore.cs" />
+    <Compile Include="protoStore\photobank_user_albumsStore.cs" />
+    <Compile Include="protoStore\placesStore.cs" />
+    <Compile Include="protoStore\places_ratingStore.cs" />
+    <Compile Include="protoStore\quizzesStore.cs" />
+    <Compile Include="protoStore\quiz_optionsStore.cs" />
+    <Compile Include="protoStore\quiz_resultsStore.cs" />
+    <Compile Include="protoStore\regionsStore.cs" />
+    <Compile Include="protoStore\restaurantsStore.cs" />
+    <Compile Include="protoStore\restaurants_entriesStore.cs" />
+    <Compile Include="protoStore\restaurants_reserveStore.cs" />
+    <Compile Include="protoStore\restaurant_commentsStore.cs" />
+    <Compile Include="protoStore\restaurant_entriesStore.cs" />
+    <Compile Include="protoStore\restaurant_entry_categoriesStore.cs" />
+    <Compile Include="protoStore\restaurant_eventsStore.cs" />
+    <Compile Include="protoStore\restaurant_photosStore.cs" />
+    <Compile Include="protoStore\restaurant_ratingStore.cs" />
+    <Compile Include="protoStore\resumesStore.cs" />
+    <Compile Include="protoStore\resumes_entriesStore.cs" />
+    <Compile Include="protoStore\resumes_facilitiesStore.cs" />
+    <Compile Include="protoStore\resumes_professionalsStore.cs" />
+    <Compile Include="protoStore\resume_educationsStore.cs" />
+    <Compile Include="protoStore\resume_linksStore.cs" />
+    <Compile Include="protoStore\resume_trainingsStore.cs" />
+    <Compile Include="protoStore\resume_worksStore.cs" />
+    <Compile Include="protoStore\salesStore.cs" />
+    <Compile Include="protoStore\sales_commentsStore.cs" />
+    <Compile Include="protoStore\sale_categoriesStore.cs" />
+    <Compile Include="protoStore\sale_typesStore.cs" />
+    <Compile Include="protoStore\vacanciesStore.cs" />
+    <Compile Include="protoStore\vacancies_entriesStore.cs" />
+    <Compile Include="protoStore\vacancies_facilitiesStore.cs" />
+    <Compile Include="protoStore\vacancies_professionalsStore.cs" />
+    <Compile Include="protoStore\vacancy_entriesStore.cs" />
+    <Compile Include="protoStore\vacancy_entry_categoriesStore.cs" />
+    <Compile Include="protoStore\vacancy_facilitiesStore.cs" />
+    <Compile Include="protoStore\vacancy_facility_variantsStore.cs" />
+    <Compile Include="protoStore\vacancy_professionalsStore.cs" />
+    <Compile Include="proto\accounts.cs" />
+    <Compile Include="proto\accounts_favorites.cs" />
+    <Compile Include="proto\account_roles.cs" />
+    <Compile Include="proto\actions.cs" />
+    <Compile Include="proto\actions_comments.cs" />
+    <Compile Include="proto\actions_genres.cs" />
+    <Compile Include="proto\actions_photos.cs" />
+    <Compile Include="proto\actions_places.cs" />
+    <Compile Include="proto\actions_rating.cs" />
+    <Compile Include="proto\actions_schedule.cs" />
+    <Compile Include="proto\action_categories.cs" />
+    <Compile Include="proto\ad_advertisments.cs" />
+    <Compile Include="proto\ad_advert_requests.cs" />
+    <Compile Include="proto\ad_categories.cs" />
+    <Compile Include="proto\ad_fields.cs" />
+    <Compile Include="proto\ad_field_descriptions.cs" />
+    <Compile Include="proto\ad_lookup_values.cs" />
+    <Compile Include="proto\ad_photos.cs" />
+    <Compile Include="proto\blogs.cs" />
+    <Compile Include="proto\blog_categories.cs" />
+    <Compile Include="proto\blog_comments.cs" />
+    <Compile Include="proto\blog_lastviews.cs" />
+    <Compile Include="proto\blog_marks.cs" />
+    <Compile Include="proto\blog_photos.cs" />
+    <Compile Include="proto\cities.cs" />
+    <Compile Include="proto\city_prices.cs" />
+    <Compile Include="proto\city_prices_icons.cs" />
+    <Compile Include="proto\comments_news.cs" />
+    <Compile Include="proto\companies.cs" />
+    <Compile Include="proto\companies_kind_activities.cs" />
+    <Compile Include="proto\company_categories.cs" />
+    <Compile Include="proto\company_comments.cs" />
+    <Compile Include="proto\company_files.cs" />
+    <Compile Include="proto\company_kind_activities.cs" />
+    <Compile Include="proto\company_ownerships.cs" />
+    <Compile Include="proto\company_photos.cs" />
+    <Compile Include="proto\company_rating.cs" />
+    <Compile Include="proto\genres.cs" />
+    <Compile Include="proto\main_page_widgets.cs" />
+    <Compile Include="proto\my_messages.cs" />
+    <Compile Include="proto\news.cs" />
+    <Compile Include="proto\news_categories.cs" />
+    <Compile Include="proto\news_images.cs" />
+    <Compile Include="proto\news_marks.cs" />
+    <Compile Include="proto\news_videos.cs" />
+    <Compile Include="proto\pages.cs" />
+    <Compile Include="proto\pages_files.cs" />
+    <Compile Include="proto\photobank_cart.cs" />
+    <Compile Include="proto\photobank_categories.cs" />
+    <Compile Include="proto\photobank_licenses.cs" />
+    <Compile Include="proto\photobank_obtained.cs" />
+    <Compile Include="proto\photobank_photos.cs" />
+    <Compile Include="proto\photobank_photos_rating.cs" />
+    <Compile Include="proto\photobank_photo_prices.cs" />
+    <Compile Include="proto\photobank_photo_tags.cs" />
+    <Compile Include="proto\photobank_related_photos.cs" />
+    <Compile Include="proto\photobank_tags.cs" />
+    <Compile Include="proto\photobank_user_albums.cs" />
+    <Compile Include="proto\places.cs" />
+    <Compile Include="proto\placesStore.cs" />
+    <Compile Include="proto\places_rating.cs" />
+    <Compile Include="proto\quizzes.cs" />
+    <Compile Include="proto\quiz_options.cs" />
+    <Compile Include="proto\quiz_results.cs" />
+    <Compile Include="proto\regions.cs" />
+    <Compile Include="proto\restaurants.cs" />
+    <Compile Include="proto\restaurants_entries.cs" />
+    <Compile Include="proto\restaurants_reserve.cs" />
+    <Compile Include="proto\restaurant_comments.cs" />
+    <Compile Include="proto\restaurant_entries.cs" />
+    <Compile Include="proto\restaurant_entry_categories.cs" />
+    <Compile Include="proto\restaurant_events.cs" />
+    <Compile Include="proto\restaurant_photos.cs" />
+    <Compile Include="proto\restaurant_rating.cs" />
+    <Compile Include="proto\resumes.cs" />
+    <Compile Include="proto\resumes_entries.cs" />
+    <Compile Include="proto\resumes_facilities.cs" />
+    <Compile Include="proto\resumes_professionals.cs" />
+    <Compile Include="proto\resume_educations.cs" />
+    <Compile Include="proto\resume_links.cs" />
+    <Compile Include="proto\resume_trainings.cs" />
+    <Compile Include="proto\resume_works.cs" />
+    <Compile Include="proto\sales.cs" />
+    <Compile Include="proto\sales_comments.cs" />
+    <Compile Include="proto\sale_categories.cs" />
+    <Compile Include="proto\sale_types.cs" />
+    <Compile Include="proto\vacancies.cs" />
+    <Compile Include="proto\vacancies_entries.cs" />
+    <Compile Include="proto\vacancies_facilities.cs" />
+    <Compile Include="proto\vacancies_professionals.cs" />
+    <Compile Include="proto\vacancy_entries.cs" />
+    <Compile Include="proto\vacancy_entry_categories.cs" />
+    <Compile Include="proto\vacancy_facilities.cs" />
+    <Compile Include="proto\vacancy_facility_variants.cs" />
+    <Compile Include="proto\vacancy_professionals.cs" />
+    <Compile Include="system\Consts.cs" />
+    <Compile Include="system\Meridian.common.cs" />
+    <Compile Include="system\IMeridianMonitorSender.cs" />
+    <Compile Include="system\Meridian.cs" />
+    <Compile Include="system\MeridianMonitor.cs" />
+    <Compile Include="system\ReceiverThreadWorker.cs" />
+    <Compile Include="system\SenderThreadWorker.cs" />
+    <Compile Include="system\ThreadWorker.cs" />
+    <Compile Include="system\Validation.cs" />
+    <Compile Include="system\WebcamThreadWorker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\admin.db\admin.db.csproj">
+      <Project>{60595A5D-561C-4B8D-A224-D3A1760D7714}</Project>
+      <Name>admin.db</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\admin.web.common\admin.web.common.csproj">
+      <Project>{5FF2B73F-DE90-4BEF-B828-A2E61C191E16}</Project>
+      <Name>admin.web.common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\smolensk.common\smolensk.common.csproj">
+      <Project>{C25F9139-FB3A-4446-BFFA-D000C53902B2}</Project>
+      <Name>smolensk.common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controller_impl\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

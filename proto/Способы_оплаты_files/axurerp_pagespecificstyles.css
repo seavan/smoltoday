@@ -1,0 +1,2504 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../Шапка_files/u21_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:637px;
+    top:53px;
+    width:264px;
+    height:104px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:270px;
+    height:110px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:260px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../Шапка_files/u23_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:102px;
+    top:1px;
+    width:700px;
+    height:52px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:706px;
+    height:58px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:696px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../Шапка_files/u25_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:2px;
+    top:53px;
+    width:635px;
+    height:79px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:641px;
+    height:85px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:631px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:648px;
+    top:83px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u7 {
+    position:absolute;
+    left:648px;
+    top:118px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u8 {
+    position:absolute;
+    left:834px;
+    top:84px;
+    width:61px;
+    height:54px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:132px;
+    width:531px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u10 {
+    position:absolute;
+    left:535px;
+    top:132px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u11_normal {
+    background-image: url('../Шапка_files/u32_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:11px;
+    top:59px;
+    width:316px;
+    height:66px;
+}
+
+#u11_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:316px;
+    height:66px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:25px;
+    width:312px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_menu {
+    background-image: url('../Меню_главное_files/u2_menu.png');
+}
+
+.u14_menu {
+    position:absolute;
+    left:-2px;
+    top:154px;
+    width:909px;
+    height:35px;
+}
+
+#u14_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:32px;
+}
+
+#u15 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:899px;
+    height:25px
+}
+
+.u16_normal {
+    background-image: url('../Меню_главное_files/u4_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:114px;
+    height:20px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:26px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:114px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../Меню_главное_files/u8_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:222px;
+    top:0px;
+    width:122px;
+    height:20px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:128px;
+    height:26px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../Меню_главное_files/u10_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:344px;
+    top:0px;
+    width:125px;
+    height:20px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:131px;
+    height:26px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:469px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../Меню_главное_files/u14_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:577px;
+    top:0px;
+    width:110px;
+    height:20px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:26px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../Меню_главное_files/u16_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:687px;
+    top:0px;
+    width:106px;
+    height:20px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:112px;
+    height:26px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../Меню_главное_files/u18_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:793px;
+    top:0px;
+    width:101px;
+    height:20px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:107px;
+    height:26px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:97px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_menu {
+    background-image: url('../Меню_Фотобанк_files/u34_menu.png');
+}
+
+.u34_menu {
+    position:absolute;
+    left:-3px;
+    top:180px;
+    width:210px;
+    height:95px;
+}
+
+#u34_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:207px;
+    height:92px;
+}
+
+#u35 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:200px;
+    height:85px
+}
+
+.u36_normal {
+    background-image: url('../Меню_Фотобанк_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:195px;
+    height:20px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:201px;
+    height:26px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:191px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../Меню_Фотобанк_files/u36_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:0px;
+    top:20px;
+    width:195px;
+    height:20px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:201px;
+    height:26px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:191px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../Меню_Фотобанк_files/u36_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:0px;
+    top:40px;
+    width:195px;
+    height:20px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:201px;
+    height:26px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:191px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../Меню_Фотобанк_files/u36_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:195px;
+    height:20px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:201px;
+    height:26px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:191px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../Меню_Фотобанк_files/u44_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:1px;
+    top:368px;
+    width:200px;
+    height:135px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:141px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:196px;
+    height:100px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../Меню_Фотобанк_files/u46_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:1px;
+    top:275px;
+    width:200px;
+    height:85px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:91px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:196px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:0px;
+    top:518px;
+    width:201px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u50 {
+    position:absolute;
+    left:218px;
+    top:194px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:300px;
+    top:194px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:442px;
+    top:230px;
+    width:258px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../Способы_оплаты_files/u53_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:117px;
+    top:161px;
+    width:108px;
+    height:20px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:402px;
+    top:194px;
+    width:80px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u56 {
+    position:absolute;
+    left:221px;
+    top:284px;
+    width:693px;
+    height:278px
+}
+
+.u57_normal {
+    background-image: url('../Способы_оплаты_files/u57_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:23px;
+    height:20px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:29px;
+    height:26px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:19px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../Способы_оплаты_files/u59_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:23px;
+    top:0px;
+    width:100px;
+    height:20px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:26px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../Способы_оплаты_files/u61_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:123px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:58px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../Способы_оплаты_files/u63_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:185px;
+    top:0px;
+    width:199px;
+    height:20px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:205px;
+    height:26px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:195px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_normal {
+    background-image: url('../Способы_оплаты_files/u65_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:384px;
+    top:0px;
+    width:137px;
+    height:20px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:26px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:133px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../Способы_оплаты_files/u67_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:521px;
+    top:0px;
+    width:92px;
+    height:20px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:26px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:88px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../Способы_оплаты_files/u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:613px;
+    top:0px;
+    width:75px;
+    height:20px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:26px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71_normal {
+    background-image: url('../Способы_оплаты_files/u71_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:0px;
+    top:20px;
+    width:23px;
+    height:83px;
+}
+
+#u71_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:29px;
+    height:89px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:19px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_normal {
+    background-image: url('../Способы_оплаты_files/u73_normal.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:23px;
+    top:20px;
+    width:100px;
+    height:83px;
+}
+
+#u73_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:89px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75_normal {
+    background-image: url('../Способы_оплаты_files/u75_normal.png');
+}
+
+.u75_container {
+    position:absolute;
+    left:123px;
+    top:20px;
+    width:62px;
+    height:83px;
+}
+
+#u75_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:89px;
+}
+
+.u76 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:58px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77_normal {
+    background-image: url('../Способы_оплаты_files/u77_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:185px;
+    top:20px;
+    width:199px;
+    height:83px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:205px;
+    height:89px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:195px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79_normal {
+    background-image: url('../Способы_оплаты_files/u79_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:384px;
+    top:20px;
+    width:137px;
+    height:83px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:89px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:133px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../Способы_оплаты_files/u81_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:521px;
+    top:20px;
+    width:92px;
+    height:83px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:89px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:88px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83_normal {
+    background-image: url('../Способы_оплаты_files/u83_normal.png');
+}
+
+.u83_container {
+    position:absolute;
+    left:613px;
+    top:20px;
+    width:75px;
+    height:83px;
+}
+
+#u83_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:89px;
+}
+
+.u84 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../Способы_оплаты_files/u85_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:0px;
+    top:103px;
+    width:23px;
+    height:85px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:29px;
+    height:91px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:19px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../Способы_оплаты_files/u87_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:23px;
+    top:103px;
+    width:100px;
+    height:85px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:91px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../Способы_оплаты_files/u89_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:123px;
+    top:103px;
+    width:62px;
+    height:85px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:91px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:58px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../Способы_оплаты_files/u91_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:185px;
+    top:103px;
+    width:199px;
+    height:85px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:205px;
+    height:91px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:195px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_normal {
+    background-image: url('../Способы_оплаты_files/u93_normal.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:384px;
+    top:103px;
+    width:137px;
+    height:85px;
+}
+
+#u93_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:91px;
+}
+
+.u94 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:133px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95_normal {
+    background-image: url('../Способы_оплаты_files/u95_normal.png');
+}
+
+.u95_container {
+    position:absolute;
+    left:521px;
+    top:103px;
+    width:92px;
+    height:85px;
+}
+
+#u95_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:91px;
+}
+
+.u96 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:88px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97_normal {
+    background-image: url('../Способы_оплаты_files/u97_normal.png');
+}
+
+.u97_container {
+    position:absolute;
+    left:613px;
+    top:103px;
+    width:75px;
+    height:85px;
+}
+
+#u97_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:91px;
+}
+
+.u98 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99_normal {
+    background-image: url('../Способы_оплаты_files/u85_normal.png');
+}
+
+.u99_container {
+    position:absolute;
+    left:0px;
+    top:188px;
+    width:23px;
+    height:85px;
+}
+
+#u99_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:29px;
+    height:91px;
+}
+
+.u100 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:19px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101_normal {
+    background-image: url('../Способы_оплаты_files/u87_normal.png');
+}
+
+.u101_container {
+    position:absolute;
+    left:23px;
+    top:188px;
+    width:100px;
+    height:85px;
+}
+
+#u101_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:91px;
+}
+
+.u102 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103_normal {
+    background-image: url('../Способы_оплаты_files/u89_normal.png');
+}
+
+.u103_container {
+    position:absolute;
+    left:123px;
+    top:188px;
+    width:62px;
+    height:85px;
+}
+
+#u103_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:91px;
+}
+
+.u104 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:58px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105_normal {
+    background-image: url('../Способы_оплаты_files/u91_normal.png');
+}
+
+.u105_container {
+    position:absolute;
+    left:185px;
+    top:188px;
+    width:199px;
+    height:85px;
+}
+
+#u105_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:205px;
+    height:91px;
+}
+
+.u106 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:195px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107_normal {
+    background-image: url('../Способы_оплаты_files/u93_normal.png');
+}
+
+.u107_container {
+    position:absolute;
+    left:384px;
+    top:188px;
+    width:137px;
+    height:85px;
+}
+
+#u107_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:91px;
+}
+
+.u108 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:133px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109_normal {
+    background-image: url('../Способы_оплаты_files/u95_normal.png');
+}
+
+.u109_container {
+    position:absolute;
+    left:521px;
+    top:188px;
+    width:92px;
+    height:85px;
+}
+
+#u109_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:91px;
+}
+
+.u110 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:88px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111_normal {
+    background-image: url('../Способы_оплаты_files/u97_normal.png');
+}
+
+.u111_container {
+    position:absolute;
+    left:613px;
+    top:188px;
+    width:75px;
+    height:85px;
+}
+
+#u111_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:91px;
+}
+
+.u112 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113_normal {
+    background-image: url('../Способы_оплаты_files/u113_normal.png');
+}
+
+.u113_container {
+    position:absolute;
+    left:253px;
+    top:310px;
+    width:85px;
+    height:73px;
+}
+
+#u113_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:85px;
+    height:73px;
+}
+
+.u114 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115_normal {
+    background-image: url('../Способы_оплаты_files/u115_normal.png');
+}
+
+.u115_container {
+    position:absolute;
+    left:253px;
+    top:393px;
+    width:85px;
+    height:73px;
+}
+
+#u115_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:85px;
+    height:73px;
+}
+
+.u116 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:482px;
+    top:194px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118 {
+    position:absolute;
+    left:759px;
+    top:263px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:220px;
+    top:604px;
+    width:170px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u128 {
+    position:absolute;
+    left:240px;
+    top:754px;
+    width:230px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129 {
+    position:absolute;
+    left:460px;
+    top:706px;
+    width:150px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u130 {
+    position:absolute;
+    left:218px;
+    top:814px;
+    width:172px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131 {
+    position:absolute;
+    left:410px;
+    top:810px;
+    width:430px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u132 {
+    position:absolute;
+    left:22px;
+    top:789px;
+    width:185px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133 {
+    position:absolute;
+    left:410px;
+    top:895px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u134_normal {
+    background-image: url('../Подвал_files/u60_normal.png');
+}
+
+.u134_container {
+    position:absolute;
+    left:0px;
+    top:1044px;
+    width:900px;
+    height:38px;
+}
+
+#u134_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:44px;
+}
+
+.u135 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:896px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136_menu {
+    background-image: url('../Меню_главное_files/u2_menu.png');
+}
+
+.u136_menu {
+    position:absolute;
+    left:-3px;
+    top:957px;
+    width:909px;
+    height:35px;
+}
+
+#u136_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:32px;
+}
+
+#u137 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:899px;
+    height:25px
+}
+
+.u138_normal {
+    background-image: url('../Меню_главное_files/u4_normal.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:114px;
+    height:20px;
+}
+
+#u138_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:26px;
+}
+
+.u139 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u140_container {
+    position:absolute;
+    left:114px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u140_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u141 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142_normal {
+    background-image: url('../Меню_главное_files/u8_normal.png');
+}
+
+.u142_container {
+    position:absolute;
+    left:222px;
+    top:0px;
+    width:122px;
+    height:20px;
+}
+
+#u142_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:128px;
+    height:26px;
+}
+
+.u143 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u144_normal {
+    background-image: url('../Меню_главное_files/u10_normal.png');
+}
+
+.u144_container {
+    position:absolute;
+    left:344px;
+    top:0px;
+    width:125px;
+    height:20px;
+}
+
+#u144_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:131px;
+    height:26px;
+}
+
+.u145 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u146_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u146_container {
+    position:absolute;
+    left:469px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u146_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u147 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148_normal {
+    background-image: url('../Меню_главное_files/u14_normal.png');
+}
+
+.u148_container {
+    position:absolute;
+    left:577px;
+    top:0px;
+    width:110px;
+    height:20px;
+}
+
+#u148_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:26px;
+}
+
+.u149 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u150_normal {
+    background-image: url('../Меню_главное_files/u16_normal.png');
+}
+
+.u150_container {
+    position:absolute;
+    left:687px;
+    top:0px;
+    width:106px;
+    height:20px;
+}
+
+#u150_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:112px;
+    height:26px;
+}
+
+.u151 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u152_normal {
+    background-image: url('../Меню_главное_files/u18_normal.png');
+}
+
+.u152_container {
+    position:absolute;
+    left:793px;
+    top:0px;
+    width:101px;
+    height:20px;
+}
+
+#u152_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:107px;
+    height:26px;
+}
+
+.u153 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:97px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u155_normal {
+    background-image: url('../Подвал_files/u81_normal.png');
+}
+
+.u155_container {
+    position:absolute;
+    left:0px;
+    top:986px;
+    width:900px;
+    height:58px;
+}
+
+#u155_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:64px;
+}
+
+.u156 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:896px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157 {
+    position:absolute;
+    left:25px;
+    top:1054px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u158 {
+    position:absolute;
+    left:795px;
+    top:1054px;
+    width:105px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

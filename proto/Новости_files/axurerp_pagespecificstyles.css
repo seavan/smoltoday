@@ -1,0 +1,2322 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../Шапка_files/u21_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:636px;
+    top:52px;
+    width:264px;
+    height:104px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:270px;
+    height:110px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:260px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../Шапка_files/u23_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:101px;
+    top:0px;
+    width:700px;
+    height:52px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:706px;
+    height:58px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:696px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../Шапка_files/u25_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:1px;
+    top:52px;
+    width:635px;
+    height:79px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:641px;
+    height:85px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:631px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:647px;
+    top:82px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u7 {
+    position:absolute;
+    left:647px;
+    top:117px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u8 {
+    position:absolute;
+    left:833px;
+    top:83px;
+    width:61px;
+    height:54px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u9 {
+    position:absolute;
+    left:1px;
+    top:131px;
+    width:531px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u10 {
+    position:absolute;
+    left:534px;
+    top:131px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u11_normal {
+    background-image: url('../Шапка_files/u32_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:10px;
+    top:58px;
+    width:316px;
+    height:66px;
+}
+
+#u11_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:316px;
+    height:66px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:25px;
+    width:312px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_menu {
+    background-image: url('../Меню_главное_files/u2_menu.png');
+}
+
+.u14_menu {
+    position:absolute;
+    left:-3px;
+    top:153px;
+    width:909px;
+    height:35px;
+}
+
+#u14_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:32px;
+}
+
+#u15 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:899px;
+    height:25px
+}
+
+.u16_normal {
+    background-image: url('../Меню_главное_files/u4_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:114px;
+    height:20px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:26px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:114px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../Меню_главное_files/u8_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:222px;
+    top:0px;
+    width:122px;
+    height:20px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:128px;
+    height:26px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../Меню_главное_files/u10_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:344px;
+    top:0px;
+    width:125px;
+    height:20px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:131px;
+    height:26px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:469px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../Меню_главное_files/u14_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:577px;
+    top:0px;
+    width:110px;
+    height:20px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:26px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../Меню_главное_files/u16_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:687px;
+    top:0px;
+    width:106px;
+    height:20px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:112px;
+    height:26px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../Меню_главное_files/u18_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:793px;
+    top:0px;
+    width:101px;
+    height:20px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:107px;
+    height:26px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:97px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_menu {
+    background-image: url('../Меню_Новости_files/u34_menu.png');
+}
+
+.u34_menu {
+    position:absolute;
+    left:-3px;
+    top:179px;
+    width:211px;
+    height:215px;
+}
+
+#u34_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:208px;
+    height:212px;
+}
+
+#u35 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:201px;
+    height:205px
+}
+
+.u36_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:196px;
+    height:20px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:0px;
+    top:20px;
+    width:196px;
+    height:20px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:0px;
+    top:40px;
+    width:196px;
+    height:20px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:196px;
+    height:20px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:0px;
+    top:80px;
+    width:196px;
+    height:20px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:0px;
+    top:100px;
+    width:196px;
+    height:20px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:0px;
+    top:120px;
+    width:196px;
+    height:20px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:0px;
+    top:140px;
+    width:196px;
+    height:20px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:0px;
+    top:160px;
+    width:196px;
+    height:20px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../Меню_Новости_files/u36_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:0px;
+    top:180px;
+    width:196px;
+    height:20px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:26px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_menu {
+    background-image: url('../Меню_Новости_files/u56_menu.png');
+}
+
+.u56_menu {
+    position:absolute;
+    left:196px;
+    top:180px;
+    width:165px;
+    height:115px;
+}
+
+#u56_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:162px;
+    height:112px;
+}
+
+#u57 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:155px;
+    height:105px
+}
+
+.u58_normal {
+    background-image: url('../Меню_Новости_files/u58_normal.png');
+}
+
+.u58_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:20px;
+}
+
+#u58_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:26px;
+}
+
+.u59 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60_normal {
+    background-image: url('../Меню_Новости_files/u58_normal.png');
+}
+
+.u60_container {
+    position:absolute;
+    left:0px;
+    top:20px;
+    width:150px;
+    height:20px;
+}
+
+#u60_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:26px;
+}
+
+.u61 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../Меню_Новости_files/u58_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:0px;
+    top:40px;
+    width:150px;
+    height:20px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:26px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../Меню_Новости_files/u58_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:150px;
+    height:20px;
+}
+
+#u64_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:26px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../Меню_Новости_files/u58_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:0px;
+    top:80px;
+    width:150px;
+    height:20px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:26px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../Новости_files/u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:0px;
+    top:681px;
+    width:202px;
+    height:111px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:208px;
+    height:117px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:198px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:11px;
+    top:713px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#666666;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u72 {
+    position:absolute;
+    left:10px;
+    top:748px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u73_container {
+    position:absolute;
+    left:204px;
+    top:224px;
+    width:696px;
+    height:311px;
+}
+
+#u73_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:696px;
+    height:311px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:148px;
+    width:692px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:425px;
+    top:560px;
+    width:200px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76_normal {
+    background-image: url('../Новости_files/u76_normal.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:214px;
+    top:592px;
+    width:459px;
+    height:434px;
+}
+
+#u76_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:459px;
+    height:434px;
+}
+
+.u77 {
+    position:absolute;
+    left:2px;
+    top:209px;
+    width:455px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78_normal {
+    background-image: url('../Новости_files/u78_normal.png');
+}
+
+.u78_container {
+    position:absolute;
+    left:681px;
+    top:592px;
+    width:219px;
+    height:379px;
+}
+
+#u78_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:219px;
+    height:379px;
+}
+
+.u79 {
+    position:absolute;
+    left:2px;
+    top:182px;
+    width:215px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80_normal {
+    background-image: url('../Новости_files/u80_normal.png');
+}
+
+.u80_container {
+    position:absolute;
+    left:3px;
+    top:159px;
+    width:114px;
+    height:20px;
+}
+
+#u80_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:26px;
+}
+
+.u81 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82_normal {
+    background-image: url('../Новости_files/u78_normal.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:213px;
+    top:1096px;
+    width:219px;
+    height:379px;
+}
+
+#u82_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:219px;
+    height:379px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:182px;
+    width:215px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84 {
+    position:absolute;
+    left:214px;
+    top:1475px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85 {
+    position:absolute;
+    left:214px;
+    top:975px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:452px;
+    top:1026px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87 {
+    position:absolute;
+    left:681px;
+    top:971px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:214px;
+    top:993px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89 {
+    position:absolute;
+    left:452px;
+    top:1042px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90 {
+    position:absolute;
+    left:681px;
+    top:987px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91 {
+    position:absolute;
+    left:214px;
+    top:1492px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92 {
+    position:absolute;
+    left:214px;
+    top:1013px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:452px;
+    top:1058px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94 {
+    position:absolute;
+    left:681px;
+    top:1005px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95 {
+    position:absolute;
+    left:214px;
+    top:1510px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96 {
+    position:absolute;
+    left:218px;
+    top:194px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97 {
+    position:absolute;
+    left:300px;
+    top:194px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:212px;
+    top:534px;
+    width:689px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99 {
+    position:absolute;
+    left:387px;
+    top:1554px;
+    width:200px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_normal {
+    background-image: url('../Новости_files/u100_normal.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:203px;
+    top:1584px;
+    width:527px;
+    height:352px;
+}
+
+#u100_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:527px;
+    height:352px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:168px;
+    width:523px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102_normal {
+    background-image: url('../Новости_files/u102_normal.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:203px;
+    top:1936px;
+    width:527px;
+    height:360px;
+}
+
+#u102_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:527px;
+    height:360px;
+}
+
+.u103 {
+    position:absolute;
+    left:2px;
+    top:172px;
+    width:523px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104_normal {
+    background-image: url('../Новости_files/u104_normal.png');
+}
+
+.u104_container {
+    position:absolute;
+    left:203px;
+    top:2296px;
+    width:527px;
+    height:313px;
+}
+
+#u104_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:527px;
+    height:313px;
+}
+
+.u105 {
+    position:absolute;
+    left:2px;
+    top:148px;
+    width:523px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106_normal {
+    background-image: url('../Новости_files/u106_normal.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:452px;
+    top:1096px;
+    width:218px;
+    height:161px;
+}
+
+#u106_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:218px;
+    height:161px;
+}
+
+.u107 {
+    position:absolute;
+    left:2px;
+    top:72px;
+    width:214px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108 {
+    position:absolute;
+    left:452px;
+    top:1267px;
+    width:200px;
+    height:192px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109 {
+    position:absolute;
+    left:452px;
+    top:1469px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110 {
+    position:absolute;
+    left:452px;
+    top:1486px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111 {
+    position:absolute;
+    left:452px;
+    top:1504px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112_normal {
+    background-image: url('../Подвал_files/u60_normal.png');
+}
+
+.u112_container {
+    position:absolute;
+    left:0px;
+    top:2732px;
+    width:900px;
+    height:38px;
+}
+
+#u112_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:44px;
+}
+
+.u113 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:896px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114_menu {
+    background-image: url('../Меню_главное_files/u2_menu.png');
+}
+
+.u114_menu {
+    position:absolute;
+    left:-3px;
+    top:2645px;
+    width:909px;
+    height:35px;
+}
+
+#u114_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:32px;
+}
+
+#u115 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:899px;
+    height:25px
+}
+
+.u116_normal {
+    background-image: url('../Меню_главное_files/u4_normal.png');
+}
+
+.u116_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:114px;
+    height:20px;
+}
+
+#u116_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:26px;
+}
+
+.u117 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u118_container {
+    position:absolute;
+    left:114px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u118_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u119 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u120_normal {
+    background-image: url('../Меню_главное_files/u8_normal.png');
+}
+
+.u120_container {
+    position:absolute;
+    left:222px;
+    top:0px;
+    width:122px;
+    height:20px;
+}
+
+#u120_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:128px;
+    height:26px;
+}
+
+.u121 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122_normal {
+    background-image: url('../Меню_главное_files/u10_normal.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:344px;
+    top:0px;
+    width:125px;
+    height:20px;
+}
+
+#u122_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:131px;
+    height:26px;
+}
+
+.u123 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:121px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124_normal {
+    background-image: url('../Меню_главное_files/u6_normal.png');
+}
+
+.u124_container {
+    position:absolute;
+    left:469px;
+    top:0px;
+    width:108px;
+    height:20px;
+}
+
+#u124_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:26px;
+}
+
+.u125 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126_normal {
+    background-image: url('../Меню_главное_files/u14_normal.png');
+}
+
+.u126_container {
+    position:absolute;
+    left:577px;
+    top:0px;
+    width:110px;
+    height:20px;
+}
+
+#u126_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:26px;
+}
+
+.u127 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u128_normal {
+    background-image: url('../Меню_главное_files/u16_normal.png');
+}
+
+.u128_container {
+    position:absolute;
+    left:687px;
+    top:0px;
+    width:106px;
+    height:20px;
+}
+
+#u128_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:112px;
+    height:26px;
+}
+
+.u129 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:102px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u130_normal {
+    background-image: url('../Меню_главное_files/u18_normal.png');
+}
+
+.u130_container {
+    position:absolute;
+    left:793px;
+    top:0px;
+    width:101px;
+    height:20px;
+}
+
+#u130_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:107px;
+    height:26px;
+}
+
+.u131 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:97px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133_normal {
+    background-image: url('../Подвал_files/u81_normal.png');
+}
+
+.u133_container {
+    position:absolute;
+    left:0px;
+    top:2674px;
+    width:900px;
+    height:58px;
+}
+
+#u133_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:906px;
+    height:64px;
+}
+
+.u134 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:896px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u135 {
+    position:absolute;
+    left:25px;
+    top:2742px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136 {
+    position:absolute;
+    left:795px;
+    top:2742px;
+    width:105px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u138_normal {
+    background-image: url('../Новости_files/u138_normal.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:4px;
+    top:1036px;
+    width:191px;
+    height:272px;
+}
+
+#u138_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:191px;
+    height:272px;
+}
+
+.u139 {
+    position:absolute;
+    left:2px;
+    top:128px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140 {
+    position:absolute;
+    left:706px;
+    top:1126px;
+    width:169px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u141 {
+    position:absolute;
+    left:18px;
+    top:996px;
+    width:169px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142 {
+    position:absolute;
+    left:18px;
+    top:1308px;
+    width:169px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143_normal {
+    background-image: url('../Новости_files/u143_normal.png');
+}
+
+.u143_container {
+    position:absolute;
+    left:0px;
+    top:392px;
+    width:202px;
+    height:283px;
+}
+
+#u143_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:208px;
+    height:289px;
+}
+
+.u144 {
+    position:absolute;
+    left:2px;
+    top:132px;
+    width:198px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145_normal {
+    background-image: url('../Новости_files/u145_normal.png');
+}
+
+.u145_container {
+    position:absolute;
+    left:7px;
+    top:802px;
+    width:197px;
+    height:189px;
+}
+
+#u145_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:197px;
+    height:189px;
+}
+
+.u146 {
+    position:absolute;
+    left:2px;
+    top:86px;
+    width:193px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

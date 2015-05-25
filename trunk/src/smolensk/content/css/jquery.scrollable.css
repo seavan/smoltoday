@@ -1,0 +1,71 @@
+﻿.scrollable-wrapper {
+    width:20000em;
+}
+.scrollable {
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width:200px;
+    height:90px;
+    float:left; 
+    clear:right; 
+    margin-left:10px;
+    margin-right:10px;
+}
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+}
+.scrollable .items a {
+    text-decoration: none;
+}
+
+.scrollable .items img {
+    cursor:pointer; 
+    margin-right:3px; 
+    vertical-align:top;
+}
+
+.scrollable .items img:hover {
+    border-bottom:solid 5px #ee3941;
+}
+.items div {
+    float:left;
+}
+
+.disabled {
+    visibility:hidden !important;
+}
+
+.scrollable-wrapper .prev-button,
+.scrollable-wrapper .next-button {
+    position:relative; 
+    display:block; 
+    width:30px; 
+    height:27px; 
+    float:left; 
+    clear:right;
+    -webkit-border-radius: 3px;
+ 	-moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+	border-collapse: separate;
+	behavior: url(css/PIE.htc);
+    -webkit-box-shadow:0 1px 1px #9e9e9e;
+    -ms-box-shadow:0 1px 1px #9e9e9e;
+    box-shadow:0 1px 1px #9e9e9e;
+	background: url(../i/bg_button_5.gif) repeat-x;
+	cursor:pointer;
+}
+
+.scrollable-wrapper .prev-button span,
+.scrollable-wrapper .next-button span {
+    background:url(../i/arrow_pn_red.png) 0 0 no-repeat; 
+    width:5px; 
+    height:7px;
+    display: block;
+    margin:10px 0 0 12px;
+}
+
+.scrollable-wrapper .next-button span {background-position:0 -13px;}

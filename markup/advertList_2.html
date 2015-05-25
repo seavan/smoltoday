@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+    <script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./js/customInputs.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/tango/skin.css" rel="stylesheet" type="text/css" />
+    <link href="./css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />  
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />  
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+		
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?">Забыли пароль?</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock">
+							<p>Поиск по сайту</p>
+							<form action="#">								
+								<label for="search" class="_autohide">например: <i>Кинотеатры</i></label>
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+						<div class="authBlock">      
+							<a href="#" title="Регистрация" class="register">Регистрация</a>							
+							<a href="#" title="Вход" class="enter">Вход</a>
+						</div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+            <div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+									</td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+            
+           <div class="blockPrice photo">
+            	<div class="waveEdge top"></div>
+                <div class="waveEdge"></div>
+				<div class="widthContent">				
+					
+                    <div class="searchBlock company">                        
+                        <form action="#">	
+                        	<div>							
+                            	<label for="searchCompany" class="_autohide">Поиск по объявлениям</label>
+                            	<input type="text" value="" name="searchCompany" id="searchCompany" />
+                            </div>
+                            <div>		
+                                <select class="categorySelect">
+                                    <option value="0">Все категории</option>
+                                    <option value="1">Автомобили</option>
+                                    <option value="2">Еда и напитки</option>
+                                    <option value="3">Общество</option>
+                                    <option value="4">Природа</option>
+                                    <option value="5">Животные</option>
+                                    <option value="6">Фоны</option>
+                                </select>
+                                <input type="hidden" value="" name="category" id="category" />
+                            </div>
+                            <div>			
+                            	<span class="button">Поиск</span>
+                            </div>
+                        </form>
+                    </div>
+					
+				</div>
+				
+			</div>
+			
+			
+			
+			<div class="blockContent advertPage">
+				<div class="widthContent">
+                    
+					<div class="leftBlock">
+                    
+                    	<div class="blockLine">
+                        	   
+							<div class="breadcrumbs">
+							  <ul>
+								<li>
+								  <a href="javascript:void(0);" title="Главная">Главная</a>
+								  <span>→</span>
+								</li>
+                                <li>
+								  <a href="javascript:void(0);" title="Объявления">Объявления</a>
+								  <span>→</span>
+								</li>
+								<li>Транспорт</li>                                
+							  </ul>
+							</div>  
+                            
+                        </div>   
+                    	
+                        <div class="advertList">
+                        	<h3>Транспорт <span>(7 852 объявления)</span></h3>
+                            
+                            <div class="selectorType">
+                            	<form action="#">
+                                  <ul>
+                                    <li>
+                                      <span class="radio" style="background-position: 50% -75px;">
+                                        <input type="radio" name="bank" value="1" checked="checked" />
+                                      </span>
+                                      Продажа <span>(492)</span>
+                                    </li>
+                                    <li>
+                                      <span class="radio" style="background-position: 50% 0px;">
+                                        <input type="radio" name="bank" value="2" />
+                                      </span>
+                                      Покупка <span>(4)</span>
+                                    </li>
+                                    <li>
+                                      <span class="radio" style="background-position: 50% 0px;">
+                                        <input type="radio" name="bank" value="3" />
+                                      </span>
+                                      Обмен <span>(2)</span>
+                                    </li>
+                                    <li>
+                                      <span class="radio" style="background-position: 50% 0px;">
+                                        <input type="radio" name="bank" value="4" />
+                                      </span>
+                                      Даром <span>(1)</span>
+                                    </li>
+                                  </ul>
+                                 
+                                </form>
+                            </div>
+                            
+                            <div class="sortingTools">
+                              <ul>
+                                <li class="name">Сортировка:</li>
+                                <li>
+                                  <a href="javascript:void(0);" title="По дате" class="cur">
+                                    <span>По дате</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);" title="Сначала дешевые">
+                                    <span>Сначала дешевые</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="javascript:void(0);" title="Сначала дорогие">
+                                    <span>Сначала дорогие</span>
+                                  </a>
+                                </li>
+                              </ul>
+                              
+                              <!--<div class="selectorCount">
+                                <form action="#">
+                                  <label for="selector_count">Выводить по</label>
+                                  <select id="selector_count" name="selector_count">
+                                    <option value="12">12</option>
+                                    <option value="25">25</option>
+                                  </select>
+                                </form>
+                              </div>-->                              
+                            </div>
+                            
+                          <div class="oneAdvert fav">
+                            	<div class="date">Сегодня<br/>12:24</div>
+                                <div class="img"><a href="#" title="1"><img src="images/autoPreview.jpg" width="100" height="65" alt="1" /></a></div>
+                                <div class="info">
+                                	<p><a href="#" title="Renault Scenic">Renault Scenic</a>2009 г.в.</p>
+                                    <p>Мощность 200 л.с., Пробег: 352000 км</p>
+                                    <p class="category">Легковой транспорт</p>
+                                </div>
+                                <div class="price"><strong>460 000 <span>руб.</span></strong> С пробегом</div>
+                          </div>
+                        	<div class="oneAdvert">
+                            	<div class="date">Сегодня<br/>12:24</div>
+                                <div class="img"><a href="#" title="1"><img src="images/autoPreview.jpg" width="100" height="65" alt="1" /></a></div>
+                                <div class="info">
+                                	<p><a href="#" title="Renault Scenic">Renault Scenic</a>2009 г.в.</p>
+                                    <p>Мощность 200 л.с., Пробег: 352000 км</p>
+                                    <p class="category">Легковой транспорт</p>
+                                </div>
+                                <div class="price"><strong>460 000 <span>руб.</span></strong> С пробегом</div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="blockLine">
+						  <div class="pager">
+							<a class="button cur" href="javascript:void(0);" title="1">1</a>
+							<a class="button" href="javascript:void(0);" title="2">2</a>
+							<a class="button" href="javascript:void(0);" title="3">3</a>
+							<a class="button" href="javascript:void(0);" title="3">4</a>
+							<a class="button" href="javascript:void(0);" title="...">...</a>
+							<a class="button" href="javascript:void(0);" title="9">9</a>
+						  </div>
+						</div>
+                        
+                        <div class="advertOffering">
+                        	<h3>Интересные предложения Транспорт</h3>
+                            <div class="blockLine">
+                                <dl>
+                                    <dt>								
+                                        <a href="#" title="Renault Scenic 2009">
+                                            <img src="images/advert1.jpg" width="200" height="130" alt="1" />
+                                            Renault Scenic 2009											
+                                        </a>								
+                                    </dt>
+                                    <dd>
+                                        <span class="price">460 000</span> руб.
+                                    </dd>
+                                </dl>
+                                
+                                <dl>
+                                    <dt>								
+                                        <a href="#" title="Renault Scenic 2009">
+                                            <img src="images/advert2.jpg" width="200" height="130" alt="1" />
+                                            Renault Scenic 2009
+                                        </a>								
+                                    </dt>
+                                    <dd>
+                                        <span class="price">460 000</span> руб.
+                                    </dd>
+                                </dl>
+                                
+                                <dl>
+                                    <dt>								
+                                        <a href="#" title="Renault Scenic 2009">
+                                            <img src="images/advert3.jpg" width="200" height="130" alt="1" />
+                                            Renault Scenic 2009
+                                        </a>								
+                                    </dt>
+                                    <dd>
+                                        <span class="price">460 000</span> руб.
+                                    </dd>
+                                </dl>
+                            </div>
+                            
+                            <div class="blockLine">
+                                  <dl>
+                                      <dt>								
+                                          <a href="#" title="Renault Scenic 2009">
+                                              <img src="images/advert4.jpg" width="200" height="130" alt="1" />
+                                              Renault Scenic 2009											
+                                          </a>								
+                                      </dt>
+                                      <dd>
+                                          <span class="price">460 000</span> руб.
+                                      </dd>
+                                  </dl>
+                                  
+                                  <dl>
+                                      <dt>								
+                                          <a href="#" title="Renault Scenic 2009">
+                                              <img src="images/advert5.jpg" width="200" height="130" alt="1" />
+                                              Renault Scenic 2009
+                                          </a>								
+                                      </dt>
+                                      <dd>
+                                          <span class="price">460 000</span> руб.
+                                      </dd>
+                                  </dl>
+                                  
+                                  <dl>
+                                      <dt>								
+                                          <a href="#" title="Renault Scenic 2009">
+                                              <img src="images/advert6.jpg" width="200" height="130" alt="1" />
+                                              Renault Scenic 2009
+                                          </a>								
+                                      </dt>
+                                      <dd>
+                                          <span class="price">460 000</span> руб.
+                                      </dd>
+                                  </dl>
+                              </div>
+
+                        </div>
+                                     
+                    </div>
+                    <div class="rightBlock">	
+                    
+                    	<div class="advertSelection">
+                        	<p>Подобрать авто</p>
+                            <form action="#">
+                            	<div class="formLine wideSelector">
+                                	<select>
+                                        <option value="0">Тип предложения</option>
+                                        <option value="1">Продажа</option>
+                                        <option value="2">Покупка</option>
+                                        <option value="3">Обмен</option>
+                                        <option value="4">Даром</option>                                        
+                                    </select>
+                                    <input type="hidden" value="" name="advertType" />
+                                </div>
+                                <div class="formLine wideSelector">
+                                	<select>
+                                        <option value="0">Ещё селектор</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                    <input type="hidden" value="" name="advertTemp" />
+                                </div>
+                                
+                                <div class="formLine separate"></div>
+                                
+                                <div class="formLine priceRange">
+                                	<p>Цена</p>
+                                    <div>
+                                    	<span>От</span><input type="text" name="fromPr" value="" /><span>До</span><input type="text" name="toPr" value="" />
+                                    </div>
+                                </div>
+                                
+                                <div class="formLine separate"></div>
+                                
+                                <div class="formLine periodRange">
+                                	<p>Период</p>
+                                    <div>
+                                    	<span>C</span><input type="text" class="rangeFrom" name="fromPer" value="" /><span>По</span><input class="rangeTo" type="text" name="toPer" value="" />
+                                    </div>
+                                </div>
+                                
+                                <div class="formLine separate"></div>
+                                
+                                <div class="formLine textLine">
+                                	<p>Текст</p>
+                                    <input type="text" name="txtSearch" />
+                                </div>
+                                
+                                <div class="formLine separate"></div>
+                                
+                                <div class="formLine selectorRange">
+                                	<p>Год выпуска</p>
+                                    <div>
+                                    	<span>C</span>
+                                        <div>
+                                        	<select>
+                                                <option value="2012">2012</option>
+                                                <option value="2011">2011</option>
+                                                <option value="2010">2010</option>                                                                                       
+                                            </select>
+                                            <input type="hidden" value="" name="fromYear" />
+                                        </div>
+                                        <span>По</span>
+                                        <div>
+                                        	<select>
+                                                <option value="2013">2013</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2011">2011</option>                                                                                       
+                                            </select>
+                                            <input type="hidden" value="" name="toYear" />
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="formLine separate"></div>
+                                
+                                <div class="formLine checkLine">                                	
+                                	<div>
+                                    	<label for="need_photo"><input type="checkbox" name="need_photo" id="need_photo"/> Наличие фотографии</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="formLine separate"></div>
+                                <div class="formLine separate"></div>
+                                
+                                <div class="formLine tools">
+                                	<a href="#" title="Расширенный поиск" class="advancedSearch">Расширенный поиск</a>
+                                	<span class="button" onclick="$(this).closest('form').submit();">Подобрать</span>
+                                </div>
+                            </form>
+                        </div>			
+                    
+                    	<div class="subCategoryList">
+                        	<h3>Транспорт <span>22 065 объявлений</span></h3>
+                            <ul>  
+                            	<li><a href="#" title="Легковой">Легковой</a> (325)</li>
+                                <li><a href="#" title="Коммерческий">Коммерческий</a> (325)</li>
+                                <li><a href="#" title="Грузовой">Грузовой</a> (32)</li>
+                                <li><a href="#" title="Мото">Мото</a> (35)</li>
+                                <li><a href="#" title="Другое">Другое</a> (32)</li>
+                            </ul>
+                        </div>
+                        
+						<ul class="advertMenu">
+                        	<li class="cur"><a href="#" title="Недвижимость">Недвижимость</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Животные</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Для дома</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Авто и мото</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Электроника и техника</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Строительство и ремонт</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Все для дачи</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Товары для детей</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Мебель, интерьер, обиход</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Одежда, обувь, аксессуары</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Спорт, туризм, отдых</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Услуги и деятельность</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Здоровье и красота</a> (2643)</li>
+							<li><a href="#" title="Автомобили">Другое</a> (2643)</li>			
+						</ul>
+                        
+                        <div class="banner"><a href="#" title="MTS"><img src="images/mts_left.jpg" width="240" height="400" alt="MTS" /></a></div>
+                        
+                        
+                        
+                        
+                        
+                    </div>
+            	</div>
+            </div>
+					
+         	<div class="most_discussed">
+              <div class="waveEdge"></div>
+            </div>
+		 	
+		    
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

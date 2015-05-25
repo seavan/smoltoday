@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project InitialTargets="Initialize" ToolsVersion="4.0" DefaultTargets="Update" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<CustomSettingsProject>CustomSettings.proj</CustomSettingsProject>
+	</PropertyGroup>
+	<Import Condition=" Exists('$(CustomSettingsProject)')" Project="$(CustomSettingsProject)" />
+	<PropertyGroup>
+		<Host Condition=" '$(Host)' == '' ">127.0.0.1</Host>
+		<UserId Condition=" '$(UserId)' == '' ">root</UserId>
+		<Password Condition=" '$(Password)' == '' ">root</Password>
+		<Database Condition=" '$(Database)' == '' ">smolensk</Database>
+		<CommonLibrariesPath>etc\lib\meridian\</CommonLibrariesPath>
+		<DbDeployPath>etc\tools\dbdeploy\</DbDeployPath>
+		<BuildPath>build\</BuildPath>
+		<ScriptFile>output.sql</ScriptFile>
+		<SqlScriptsPath>etc\sql\incremental</SqlScriptsPath>
+	</PropertyGroup>
+	<Target Name="Initialize">
+		<ItemGroup>
+			<DbDeployFiles Include="$(DbDeployPath)*.*" />
+		</ItemGroup>
+		<MakeDir Directories="$(BuildPath)" />
+		<Copy SourceFiles="$(CommonLibrariesPath)MySql.Data.dll" DestinationFolder="$(BuildPath)" />
+		<Copy SourceFiles="@(DbDeployFiles)" DestinationFolder="$(BuildPath)" />
+		<Copy SourceFiles="CustomSettings.template" DestinationFiles="$(CustomSettingsProject)" Condition=" !Exists('$(CustomSettingsProject)')" />
+	</Target>
+	
+	<UsingTask TaskName="MSBuild.Dbdeploy.Task.Dbdeploy" AssemblyFile="$(BuildPath)MSBuild.Dbdeploy.Task.dll" />
+	<Target Name="MakeScript">
+		<Delete Files="$(BuildPath)$(ScriptFile)" />
+		<MSBuild.Dbdeploy.Task.Dbdeploy
+			DbType="mysql"
+			DbConnection="SERVER=$(Host);DATABASE=$(Database);UID=$(UserId);PASSWORD=$(Password)"
+			AutoCreateChangeLogTable="false"
+			Dir="$(SqlScriptsPath)"
+			Delimiter=";"
+			DelimiterType="row"
+			OutputFile="$(BuildPath)$(ScriptFile)" />
+	</Target>
+	<Target Name="Update" DependsOnTargets="MakeScript">
+		<Exec Condition=" Exists('$(BuildPath)$(ScriptFile)') " Command="mysql -h $(Host) -u $(UserId) -p$(Password) $(Database) &lt; $(ScriptFile)" WorkingDirectory="$(BuildPath)" />
+	</Target>
+</Project>

@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="Smolensk.Master" %>
+
+<%@ Import Namespace="meridian.smolensk.system" %>
+<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="Scripts">
+    <link href="/Content/css/admin_style.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/ui-lightness/jquery-ui-1.8.6.custom.css" rel="Stylesheet"
+        type="text/css" />
+    <link href="/Scripts/ckeditor/skins/kama/templates.css" rel="Stylesheet" type="text/css" />
+    <%= Html.Telerik().StyleSheetRegistrar().DefaultGroup(group => group.Add("telerik.common.css").Add("telerik.windows7.css").Combined(true).Compress(true)) %>
+    <script type="text/javascript" src="/Scripts/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script type="text/javascript" src="/Scripts/main.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftAjax.Debug.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcValidation.js"></script>
+    <script type="text/javascript" src="/Scripts/swfobject.js"></script>
+    <script type="text/javascript" src="/Content/js/jwplayer/jwplayer.js"></script>
+    <script type="text/javascript" src="/Scripts/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="/Scripts/ckeditor/config.js"></script>
+    <script type="text/javascript" src="/Scripts/ckeditor/adapters/jquery.js"></script>
+    <script type="text/javascript" src="/Content/js/main_admin.js"></script>
+    <style type="text/css">
+        ._tabSelected
+        {
+            color: red;
+        }
+        
+        .widthSite
+        {
+            width: auto;
+        }
+        
+        .adminMenuLeft a
+        {
+            display: block;
+            padding: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .adminMenuLeft a:hover {
+            background: white;
+            text-decoration: underline;
+        }
+        .widthContent
+        {
+            width: auto;
+            margin: 10px;
+        }
+        
+        .topToolbar {
+            text-align: right;
+        }
+        
+        .topToolbar a {
+            margin-left: 5px;
+        }
+        
+        .widthSite { padding-top: 0px;}
+    </style>
+</asp:Content>
+<asp:Content ContentPlaceHolderID="HeaderOverride" ID="Content22" runat="server">
+
+</asp:Content>
+<asp:Content ContentPlaceHolderID="FooterOverride" ID="Content3" runat="server">
+    <div class="widthContent">
+        <small>Powered by meridian (et cetera), v 2.1 build 2048. </small>
+    </div>
+</asp:Content>
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="Content">
+    <asp:ContentPlaceHolder runat="server" ID="TopContent">
+    </asp:ContentPlaceHolder>
+    <table>
+        <tr>
+            <td style="background: #EFEFEF; padding: 0px; width: 150px">
+                <% Html.RenderPartial("AdminMenu"); %>
+            </td>
+            <td>
+  <div class="blockContent" style="padding-top: 0px">
+        <div class="widthContent" style="">
+            <h3>
+                <asp:ContentPlaceHolder runat="server" ID="AdminTitle">
+                </asp:ContentPlaceHolder>
+                // Административная панель SMOLTODAY
+            </h3>
+        </div>
+        <div class="widthContent" style="">
+            <br />
+            <asp:ContentPlaceHolder runat="server" ID="BreadCrumbs">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder runat="server" ID="TitleContent">
+            </asp:ContentPlaceHolder>
+            <div class="leftBlock" style="float: none">
+                <asp:ContentPlaceHolder runat="server" ID="LeftBlockContent">
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder runat="server" ID="MainContent">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="rightBlock">
+                <asp:ContentPlaceHolder runat="server" ID="RightContent">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="waveEdge">
+        </div>
+    </div>                
+            </td>
+        </tr>
+    </table>
+  
+    <asp:ContentPlaceHolder runat="server" ID="BottomContent">
+        <%= Html.Telerik().ScriptRegistrar().jQuery(false).Globalization(true).DefaultGroup(
+    group =>
+        group
+    .Add("jquery.validate.min.js")
+    .Add("telerik.common.min.js")
+    .Add("telerik.calendar.min.js")
+    .Add("telerik.datepicker.min.js")
+    .Add("telerik.datetimepicker.min.js")
+    .Add("telerik.timepicker.min.js")
+    .Add("telerik.textbox.min.js")
+    .Add("telerik.grid.min.js")
+    .Add("telerik.draganddrop.min.js")
+    .Add("telerik.grid.grouping.min.js")
+    .Add("telerik.grid.filtering.min.js")
+    .Add("telerik.grid.resizing.min.js")
+    .Add("telerik.grid.reordering.min.js")
+    .Add("telerik.grid.editing.min.js")
+    .Add("telerik.upload.min.js")
+    .Add("telerik.editor.min.js")
+    .Add("telerik.window.min.js")
+    .Add("telerik.menu.min.js")
+    .Add("telerik.slider.min.js")
+    .Combined(true)
+    .Compress(true))
+    
+    
+        %>
+    </asp:ContentPlaceHolder>
+</asp:Content>

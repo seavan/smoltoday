@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="Inner.Master" %>
+
+<asp:Content ID="Title1" runat="server" ContentPlaceHolderID="Title">
+    <asp:ContentPlaceHolder ID="Title" runat="server">Все о Смоленске - SmolToday.RU</asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content0" runat="server" ContentPlaceHolderID="ContentCssClass">salePage</asp:Content>
+
+<asp:Content ID="Scripts1" runat="server" ContentPlaceHolderID="InnerScripts"></asp:Content>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TopContent" runat="server"></asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="BreadCrumbs" runat="server"></asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="LeftBlockContent" runat="server">
+    <div class="blockLine">
+        <%: Html.MvcSiteMap().SiteMapPath() %>  
+    </div>
+   <asp:ContentPlaceHolder runat="server" ID="Discounts"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="RightBlockContent" runat="server">
+    
+    <%Html.RenderAction("CategoryMenu"); %>
+                        
+    <%Html.RenderPartial("Widgets/Banner240x400"); %>
+   
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="BottomContent" runat="server"></asp:Content>

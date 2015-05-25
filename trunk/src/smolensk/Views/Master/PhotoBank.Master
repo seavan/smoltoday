@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="Inner.Master" %>
+
+<asp:Content ID="Content0" runat="server" ContentPlaceHolderID="ContentCssClass">photoPage</asp:Content>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TopContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="CssContent"></asp:ContentPlaceHolder>
+    <div class="blockPrice photo">
+        <div class="waveEdge top"></div>
+        <div class="waveEdge"></div>
+	    <div class="widthContent">					
+					
+		    <div class="name" id="cart-info">
+                <% Html.RenderAction("CartInfo", "PhotoBank"); %>
+            </div>				
+					
+            <div class="searchBlock">
+                <% Html.BeginForm("Search", "PhotoBank", FormMethod.Get, new { id = "searchForm" }); %>                        
+                    <label for="q" class="_autohide">Поиск по банку фотографий</label>
+                    <input type="text" value="<%= Request.QueryString["q"] %>" name="q" id="q" />
+                    <span class="button" id="search">Поиск</span>
+                <% Html.EndForm(); %>
+            </div>
+	    </div>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="BreadCrumbs" runat="server">
+    <div class="leftBlock">
+        <asp:ContentPlaceHolder runat="server" ID="BreadCrumbsContent">
+            <div class="blockLine">
+                <%: Html.MvcSiteMap().SiteMapPath() %>  
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="LeftBlockContent" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="PhotoBank"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="RightBlockContent" runat="server">
+		
+    <h3><a href="<%: Url.Action("Index","PhotoBank") %>">Фотобанк</a></h3>
+    <% Html.RenderAction("MenuCategories", "PhotoBank"); %>
+    <% Html.RenderAction("TagsCloud", "PhotoBank"); %>
+    <% Html.RenderAction("GetPhotoSession", "PhotoBank", new { action = ViewContext.RouteData.Values["action"], id = ViewContext.RouteData.Values["id"] }); %>
+
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="BottomContent" runat="server">
+    <script>
+        $(function() {
+            $("#searchForm").on("submit", function () {
+                return $("#q").val() != "";
+            });
+
+            $(".basket").on("click", function () {
+                if ($(this).hasClass("no-auth")) {
+                    alert("Только зарегистрированные пользователи могут совершать покупки");
+                    return;
+                } else {
+                    $.ajax({
+                        url: '<%: Url.Action("AddToCart", "Photobank") %>',
+                        type: "POST",
+                        data: { id: $(this).data("id"), priceId: $(this).data("priceid") },
+                        success: function (result) {
+                            $("#cart-info").html(result);
+                        }
+                    });
+                }
+            });
+
+            $(".cart-order").on("click", function () {
+            location.href = '<%: Url.Action("Order", "PhotoBank") %>';
+        });
+        })
+        
+    </script>
+    <asp:ContentPlaceHolder runat="server" ID="ContentScript"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Title1" runat="server" ContentPlaceHolderID="Title">
+    <asp:ContentPlaceHolder ID="Title" runat="server">Все о Смоленске - SmolToday.RU</asp:ContentPlaceHolder>
+</asp:Content>

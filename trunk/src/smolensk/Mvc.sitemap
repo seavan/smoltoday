@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvcSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
+            xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
+
+  <mvcSiteMapNode title="Главная" controller="Main" action="Index">
+
+    <mvcSiteMapNode title="Объявления" controller="Adverts" action="Index">
+      <mvcSiteMapNode title="" controller="Advets" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.AdvertsSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Фотобанк" controller="Photobank" action="Index">
+      <mvcSiteMapNode title="" controller="Photobank" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.PhotobankSiteMapProvider, smolensk"/>
+      <mvcSiteMapNode title="Лицензии" controller="Photobank" action="License"/>
+      <mvcSiteMapNode title="Поиск" controller="Photobank" action="Search" preservedRouteParameters="q,page,pageSize"/>
+      <mvcSiteMapNode title="Корзина" controller="Photobank" action="Cart">
+        <mvcSiteMapNode title="Оформить заказ" controller="Photobank" action="Order" />
+      </mvcSiteMapNode>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Новости" controller="News" action="Index">
+      <mvcSiteMapNode title="" controller="News" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.NewsSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Рестораны" controller="Restaurants" action="List">
+      <mvcSiteMapNode title="" controller="Restaurants" action="List" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.RestaurantsSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Компании" controller="Companies" action="Categories">
+      <mvcSiteMapNode title="" controller="Companies" action="Categories" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.CompaniesSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Афиша" controller="Poster" action="Index" preservedRouteParameters="dateFilter">
+      <mvcSiteMapNode title="" controller="Poster" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.PosterSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Блоги" controller="Blogs" action="Index" preservedRouteParameters="dateFilter">
+      <mvcSiteMapNode title="" controller="Blogs" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.BlogsSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Скидки" controller="Discounts" action="Index" preservedRouteParameters="type,sorting,page,categoryId,companyId">
+      <mvcSiteMapNode title="" controller="Discounts" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.DiscountsSiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Вакансии" controller="Vacancy" action="Index">
+      <mvcSiteMapNode title="Создать резюме" controller="Vacancy" action="CreateResume"/>
+      <mvcSiteMapNode title="Создать вакансию" controller="Vacancy" action="CreateVacancy"/>
+      <mvcSiteMapNode title="Поиск вакансии" controller="Vacancy" action="Vacancies"/>
+      <mvcSiteMapNode title="Поиск вакансии" controller="Vacancy" action="SearchVacancyResult"/>
+      <mvcSiteMapNode title="Поиск вакансии" controller="Vacancy" action="SearchVacancy"/>
+      <mvcSiteMapNode title="Поиск резюме" controller="Vacancy" action="Resumes"/>
+      <mvcSiteMapNode title="Поиск резюме" controller="Vacancy" action="SearchResumeResult"/>
+      <mvcSiteMapNode title="Поиск резюме" controller="Vacancy" action="SearchResume"/>
+      <mvcSiteMapNode title="Поиск по компаниям" controller="Vacancy" action="SearchCompany" preservedRouteParameters="regionId,cityId,allCompanies,letter,filter"/>
+      
+      <mvcSiteMapNode title="" controller="Vacancy" action="Index" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.VacancySiteMapProvider, smolensk"/>
+    </mvcSiteMapNode>
+
+    <mvcSiteMapNode title="Профиль" controller="Profile" action="Index">
+      <mvcSiteMapNode title="Объявления" controller="Profile" action="Adverts">
+        <mvcSiteMapNode title="Мои объявления" controller="Profile" action="Adverts" preservedRouteParameters="page"/>
+        <mvcSiteMapNode title="Избранные объявления" controller="Profile" action="FavoriteAdverts" preservedRouteParameters="page"/>
+        <mvcSiteMapNode title="Редактирование объявления" controller="Profile" action="EditAdvert"/>
+        <mvcSiteMapNode title="Создание объявления" controller="Profile" action="CreateAdvert"/>
+      </mvcSiteMapNode>
+      
+      <mvcSiteMapNode title="Сообщения" controller="Profile" action="Messages" preservedRouteParameters="page"/>
+      <mvcSiteMapNode title="Комментарии и отзывы" controller="Profile" action="Comments" preservedRouteParameters="page"/>
+      <mvcSiteMapNode title="Мои оценки" controller="Profile" action="Marks" preservedRouteParameters="page,sortDirection"/>
+      <mvcSiteMapNode title="Рестораны" controller="Profile" action="Restaurants" preservedRouteParameters="page"/>
+      <mvcSiteMapNode title="Избранные компании" controller="Profile" action="Companies" preservedRouteParameters="page"/>
+      <mvcSiteMapNode title="Избранные скидки" controller="Profile" action="Discounts" preservedRouteParameters="page"/>
+      <mvcSiteMapNode title="Мероприятия" controller="Profile" action="Actions" preservedRouteParameters="page"/>
+      
+      <mvcSiteMapNode title="Резюме" controller="Profile" action="ResumeList" preservedRouteParameters="page,type">
+        <mvcSiteMapNode title="Создание резюме" controller="Profile" action="CreateResume"/>
+        <mvcSiteMapNode title="Редактирование резюме" controller="Profile" action="EditResume"/>
+      </mvcSiteMapNode>
+
+      <mvcSiteMapNode title="Блог" controller="Profile" action="Blog">
+        <mvcSiteMapNode title="Редактирование записи" controller="Profile" action="BlogEdit"/>
+      </mvcSiteMapNode>
+      
+      <mvcSiteMapNode title="Фотобанк" controller="Profile" action="PhotoBank">
+        <mvcSiteMapNode title="Приобретенные фотографии" controller="Profile" action="PhotoBank"/>
+        <mvcSiteMapNode title="Мои фотографии" controller="Profile" action="PhotoProfile"/>
+        <mvcSiteMapNode title="Создать портфолио" controller="Profile" action="PhotoCreateProfile"/>
+        <mvcSiteMapNode title="" controller="Profile" action="PhotoAlbum" dynamicNodeProvider="smolensk.Domain.SiteMapProviders.PhotobankAdminSiteMapProvider, smolensk"/>
+      </mvcSiteMapNode>
+      
+    </mvcSiteMapNode>
+    
+  </mvcSiteMapNode>
+</mvcSiteMap>

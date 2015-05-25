@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />  
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+		
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?">Забыли пароль?</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock">
+							<p>Поиск по сайту</p>
+							<form action="#">								
+								<label for="search" class="_autohide">например: <i>Кинотеатры</i></label>
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+						<div class="authBlock">      
+							<a href="#" title="Регистрация" class="register">Регистрация</a>							
+							<a href="#" title="Вход" class="enter">Вход</a>
+						</div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+            <div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+									</td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+            
+           <div class="blockPrice photo">
+            	<div class="waveEdge top"></div>
+                <div class="waveEdge"></div>
+				<div class="widthContent">				
+					
+                    <div class="searchBlock company">                        
+                        <form action="#">	
+                        	<div>							
+                            	<label for="searchCompany" class="_autohide">Поиск по компаниям и услугам</label>
+                            	<input type="text" value="" name="searchCompany" id="searchCompany" />
+                            </div>
+                            <div>		
+                                <select class="categorySelect">
+                                    <option value="0">Все категории</option>
+                                    <option value="1">Автомобили</option>
+                                    <option value="2">Еда и напитки</option>
+                                    <option value="3">Общество</option>
+                                    <option value="4">Природа</option>
+                                    <option value="5">Животные</option>
+                                    <option value="6">Фоны</option>
+                                </select>
+                                <input type="hidden" value="" name="category" id="category" />
+                            </div>
+                            <div>			
+                            	<span class="button">Поиск</span>
+                            </div>
+                        </form>
+                    </div>
+					
+				</div>
+				
+			</div>
+			
+			
+			
+			<div class="blockContent companyPage">
+				<div class="widthContent">
+                	
+                    <div class="alphabet">
+                    	<div class="languageSelector">
+                        	<span class="rus cur">RUS</span>
+                            <span class="eng">ENG</span>
+                        </div>
+                    	<div class="letters rus">
+                        	<a href="#" title="А">А</a>
+                            <a href="#" title="Б">Б</a>
+                            <a href="#" title="В">В</a>
+                            <a href="#" title="Г">Г</a>
+                            <a href="#" title="Д">Д</a>
+                            <a href="#" title="Е">Е</a>
+                            <a href="#" title="Ж">Ж</a>
+                            <a href="#" title="З">З</a>
+                            <a href="#" title="И">И</a>
+                            <a href="#" title="К">К</a>
+                            <a href="#" title="Л">Л</a>
+                            <a href="#" title="М">М</a>
+                            <a href="#" title="Н">Н</a>
+                            <a href="#" title="О">О</a>
+                            <a href="#" title="Р">Р</a>
+                            <a href="#" title="С">С</a>
+                            <a href="#" title="Т">Т</a>
+                            <a href="#" title="У">У</a>
+                            <a href="#" title="Ф">Ф</a>
+                            <a href="#" title="Х">Х</a>
+                            <a href="#" title="Ц">Ц</a>
+                            <a href="#" title="Ш">Щ</a>
+                            <a href="#" title="Щ">Щ</a>
+                            <a href="#" title="Э">Э</a>
+                            <a href="#" title="Ю">Ю</a>
+                            <a href="#" title="Я">Я</a>                            
+                        </div>
+                        <div class="letters eng">
+                        	<a href="#" title="a">a</a>
+                            <a href="#" title="b">b</a>
+                            <a href="#" title="c">c</a>
+                            <a href="#" title="d">d</a>
+                            <a href="#" title="e">e</a>
+                            <a href="#" title="f">f</a>
+                            <a href="#" title="g">g</a>
+                            <a href="#" title="h">h</a>
+                            <a href="#" title="i">i</a>
+                            <a href="#" title="j">j</a>
+                            <a href="#" title="k">k</a>
+                            <a href="#" title="l">l</a>
+                            <a href="#" title="m">m</a>
+                            <a href="#" title="n">n</a>
+                            <a href="#" title="o">o</a>
+                            <a href="#" title="p">p</a>
+                            <a href="#" title="q">q</a>
+                            <a href="#" title="r">r</a>
+                            <a href="#" title="s">s</a>
+                            <a href="#" title="t">t</a>
+                            <a href="#" title="u">u</a>
+                            <a href="#" title="v">v</a>
+                            <a href="#" title="w">w</a>
+                            <a href="#" title="x">x</a>
+                            <a href="#" title="y">y</a>
+                            <a href="#" title="z">z</a>                           
+                        </div>
+                    </div>
+                    
+					<div class="leftBlock">
+                    	<div class="blockLine">
+                        	   
+							<div class="breadcrumbs">
+							  <ul>
+								<li>
+								  <a href="javascript:void(0);" title="Главная">Главная</a>
+								  <span>→</span>
+								</li>
+								<li>Компании</li>                                
+							  </ul>
+							</div>  
+                            
+                        </div>   
+                        
+                        <div class="companyList">
+							<h3>Результаты поиска по запросу: Банк</h3>
+							
+							<div class="sortingTools">
+								
+								<ul>
+									<li class="name">Сортировка:</li>
+									<li><a href="#" title="По рейтингу" class="cur"><span>По рейтингу</span></a></li>
+									<li><a href="#" title="По новизне"><span>По новизне</span></a></li>
+									<li><a href="#" title="По алфавиту"><span>По алфавиту</span></a></li>
+								</ul>
+									
+								<div class="selectorCount">
+								  <form action="#">
+									<label for="selector_count">Выводить по</label>
+									<select id="selector_count" name="selector_count">
+									  <option value="12">12</option>
+									  <option value="25">25</option>
+									</select>
+								  </form>
+								</div>
+							</div>
+							
+							<div class="oneCompany fav">
+								<a href="#" title="Банк Банка"><img src="images/citybank.jpg" width="104" height="104" alt="citybank" /></a>
+								<div class="infoBlock">
+								
+									<p>
+										<span class="name"><a href="#" title="Банк Банка">Банк Банка</a></span>
+										<span class="info">
+										  <span class="rating">
+											<span class="cur">1</span>
+											<span class="cur">2</span>
+											<span class="cur">3</span>
+											<span>4</span>
+											<span>5</span>
+										  </span>                                  
+										</span>
+										<br/>
+									</p>
+									
+									<p>Описание компании: Оказывает услуги по выдаче кридитов, обмене валюты и т.д.</p>
+									<p>
+										<a href="#" title="bank-moscow.ru" class="site">bank-moscow.ru</a>
+										<a href="#" title="sale@bank-moscow.ru" class="mail">sale@bank-moscow.ru</a>
+										<span class="info">	
+											<span class="button">+</span>									  
+											<span class="comments">5 отзывов</span>										  
+										</span>
+									</p>
+									<p class="phone"><b>+7 (495) 228 1052, +7 (916) 200 02 14</b></p>
+
+								</div>
+							</div>
+							<div class="oneCompany">
+								<a href="#" title="Банк Банка"><img src="images/rusfin.jpg" width="104" height="104" alt="citybank" /></a>
+								<div class="infoBlock">
+								
+									<p>
+										<span class="name"><a href="#" title="Банк Банка">Банк Банка</a></span>
+										<span class="info">
+										  <span class="rating">
+											<span class="cur">1</span>
+											<span class="cur">2</span>
+											<span class="cur">3</span>
+											<span class="cur">4</span>
+											<span class="cur">5</span>
+										  </span>                                  
+										</span>
+										<br/>
+									</p>
+									
+									<p>Описание компании: Оказывает услуги по выдаче кридитов, обмене валюты и т.д.</p>
+									<p>
+										<a href="#" title="bank-moscow.ru" class="site">bank-moscow.ru</a>
+										<a href="#" title="sale@bank-moscow.ru" class="mail">sale@bank-moscow.ru</a>
+										<span class="info">	
+											<span class="button">+</span>									  
+											<span class="comments null">0 отзывов</span>										  
+										</span>
+									</p>
+									<p class="phone"><b>+7 (495) 228 1052, +7 (916) 200 02 14</b></p>
+
+								</div>
+							</div>
+						</div>
+                        <div class="blockLine">
+						  <div class="pager">
+							<a class="button cur" href="javascript:void(0);" title="1">1</a>
+							<a class="button" href="javascript:void(0);" title="2">2</a>
+							<a class="button" href="javascript:void(0);" title="3">3</a>
+							<a class="button" href="javascript:void(0);" title="3">4</a>
+							<a class="button" href="javascript:void(0);" title="...">...</a>
+							<a class="button" href="javascript:void(0);" title="9">9</a>
+						  </div>
+						</div>
+                          
+                                     
+                    </div>
+                    <div class="rightBlock">				
+                    	
+						<ul class="newsMenu">
+							<li class="cur"><a href="#" title="Все категории">Все категории</a></li>
+							<li><a href="#" title="Автомобили">Автомобили</a></li>
+							<li><a href="#" title="Еда и напитки">Еда и напитки</a></li>
+							<li><a href="#" title="Общество">Общество</a></li>
+							<li><a href="#" title="Природа">Природа</a></li>
+							<li><a href="#" title="Животные">Животные</a></li>
+							<li><a href="#" title="Фоны">Фоны</a></li>							
+						</ul>
+                        
+                        <div class="banner"><a href="#" title="MTS"><img src="images/mts_left.jpg" width="240" height="400" alt="MTS" /></a></div>
+                        
+                        <dl class="freshReview">
+							<dt>Свежие отзывы</dt>
+							<dd>
+                            	<a href="#" title="Банк Москвы, филиал Тула">Банк Москвы, филиал Тула</a>
+                                <p>Мне всё понравилось, и хорошо, что у вас тут нет смайликов. Смайликами пользуются средних умов люди. </p>
+                                <!-- span class="info">
+                                  <span class="rating">
+                                    <span class="cur">1</span>
+                                    <span class="cur">2</span>
+                                    <span class="cur">3</span>
+                                    <span>4</span>
+                                    <span>5</span>
+                                  </span>                                  
+                                </span -->
+                         	</dd>
+                            
+                            <dd>
+                            	<a href="#" title="Банк Москвы, филиал Тула">Банк Москвы, филиал Тула</a>
+                                <p>Очень удобно, интернет-банк офигенен!</p>
+                                <!-- span class="info">
+                                  <span class="rating">
+                                    <span class="cur">1</span>
+                                    <span class="cur">2</span>
+                                    <span class="cur">3</span>
+                                    <span>4</span>
+                                    <span>5</span>
+                                  </span>                                  
+                                </span -->
+                         	</dd>
+                        </dl>
+                        
+                        
+                        
+                    </div>
+            	</div>
+            </div>
+			
+			
+			<div class="blockMap companyPage">
+				<div class="waveEdge top"></div>
+                <div class="waveEdge"></div>
+				
+				<div class="widthContent">
+					<p class="showMap">Карта компаний - Банки и кредитные организации</p>
+				</div>
+				<div class="mapBlock">
+					<div class="map">
+						<img src="images/googleMap.jpg" width="1400" height="438" alt="map" />
+						<span class="point blue"></span>
+						<span class="point green"></span>
+						<span class="point orange"></span>
+						<span class="point pink"></span>
+						<span class="point lime"></span>
+						<span class="point black"></span>
+					</div>
+				</div>
+							
+			</div>
+			
+         
+		 	
+		    
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

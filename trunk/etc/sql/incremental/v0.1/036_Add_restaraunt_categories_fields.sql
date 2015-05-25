@@ -1,0 +1,1 @@
+ALTER TABLE `restaurant_entry_categories` ADD COLUMN `is_multiple` BIT NULL  AFTER `title` , ADD COLUMN `is_anyvalue` BIT NULL  AFTER `is_multiple` , ADD COLUMN `is_visible` BIT NULL  AFTER `is_anyvalue` ;

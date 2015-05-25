@@ -1,0 +1,3 @@
+SET NAMES utf8;
+
+INSERT INTO `blog_photos` (`thumbnail`,`normal`,`blog_id`) VALUES ('9D30816C-9CBC-45AE-A143-6322C5D7D279.jpg', '29FDE008-7DEA-4D93-ADAE-9CE7084CA99A.jpg', 2);

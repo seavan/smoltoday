@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+    <script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./js/customInputs.js"></script>
+    <script type="text/javascript" src="./js/cloneApi.js"></script>
+    
+    <script type="text/javascript" src="./js/placeholder.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/tango/skin.css" rel="stylesheet" type="text/css" />
+    <link href="./css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />  
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+		
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?">Забыли пароль?</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock">
+							<p>Поиск по сайту</p>
+							<form action="#">								
+								<label for="search" class="_autohide">например: <i>Кинотеатры</i></label>
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+						<div class="authBlock">      
+							<a href="#" title="Регистрация" class="register">Регистрация</a>							
+							<a href="#" title="Вход" class="enter">Вход</a>
+						</div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+            <div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+									</td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+            
+            
+			<div class="headerRest">
+				<div class="widthContent">
+					<div class="breadcrumbs">
+						<ul>                                	
+							<li><a href="#" title="Главная">Главная</a> <span>&rarr;</span></li>                                    
+							<li>Рестораны</li>
+						</ul>
+					</div>
+					<h2>Кафе и рестораны Смоленска</h2>
+				</div>
+				<div class="waveEdge"></div>
+			</div>
+			
+			<div class="blockPrice rest">
+            	<div class="waveEdge"></div>
+				<div class="widthContent">					
+					
+					<div class="name">Поиск по<br/>параметрам</div>
+					<form action="#">
+					<div class="prices">
+                    	<div class="lenta">
+                        	<div class="price kitchen">
+                            	<span class="num">кухня</span>
+                                
+                                <small>любая</small>
+								
+                            </div>
+                            <div class="price invoice">
+                            	<span class="num">счет</span>
+                                
+                                <small>любой</small>
+								
+								
+                            </div>
+                            <div class="price sale">
+                            	<span class="num">скидка</span>
+                                
+                                <small>любая</small>
+                                
+                                <div class="paramList">
+                                	<ul>
+                                    	<li><b>1-5%</b> (64)</li>
+                                        <li><b>5-10%</b> (12)</li>
+                                        <li class="cur"><b>10-20%</b> (6)</li>
+                                        <li><b>20-50%</b> (4)</li>
+                                        <li><b>50-75%</b> (1)</li>                                      
+                                    </ul>
+                                	<span class="arrow"></span>
+                                </div>
+								
+                            </div>
+                            <div class="price features">
+                            	<span class="num">особенности</span>
+                                
+                                <small>любые</small>
+								
+								
+                            </div> 
+							
+							<div class="btn_block">
+								<span class="button" onClick="$(this).closest('form').submit();">Поиск подходящих</span>
+								<small><a href="#" title="Подробный поиск">Подробный поиск</a></small>
+							</div>
+							                     
+                        </div>
+                   </div>
+				   </form>
+					
+				</div>
+				
+			</div>
+			
+			<div class="blockFilterRest">
+				<div class="widthContent">
+					<div class="filterHeader">
+						<span class="counter">Всего заведений - 94</span>
+						<span class="switcher events cur"><i>Мероприятия</i><span></span></span>
+						<span class="switcher map"><i>Карта ресторанов</i><span></span></span>
+					</div>
+					<div class="filterBody" style="display:block;">
+						<div class="daySelector">
+							<span class="day">
+								<span>понедельник</span>
+								<small>11 сентября</small>
+							</span>
+							<span class="day cur">
+								<span>вторник</span>
+								<small>12 сентября</small>
+							</span>
+							<span class="day">
+								<span>среда</span>
+								<small>13 сентября</small>
+							</span>
+							<span class="day empty">
+								<span>четверг</span>
+								<small>14 сентября</small>
+							</span>
+							<span class="day">
+								<span>пятница</span>
+								<small>15 сентября</small>
+							</span>
+							<span class="day off cur">
+								<span>суббота</span>
+								<small>16 сентября</small>
+							</span>
+							<span class="day off empty">
+								<span>воскресенье</span>
+								<small>17 сентября</small>
+							</span>
+							<!--<span class="day next">
+								<span>след.<br/>неделя</span>								
+							</span>-->
+							<span class="day select">
+								<span class="prev disable"><span>след.<br/>неделя</span></span>
+								<span class="next "><span>пред.<br/>неделя</span></span>								
+							</span>
+							
+						</div>
+						<div class="preview">
+							<div class="oneRest">
+								<a href="#" title="Ресторан Miss Marple" class="name">Ресторан Miss Marple</a>
+								<span class="time">20:00</span>
+								<a href="#" title="«Вечер у камина» с группой «Жуки»">«Вечер у камина» с группой «Жуки»</a>
+								<span class="type">Живая музыка</span>
+								<span class="button">Забронировать столик</span>								
+							</div>
+							<div class="oneRest">
+								<a href="#" title="Кафе DownTown" class="name">Кафе DownTown</a>
+								<span class="time">20:00</span>
+								<a href="#" title="«Вечер у камина» с группой «Жуки»">«Вечер у камина» с группой «Жуки»</a>
+								<span class="type">Живая музыка</span>
+								<span class="button">Забронировать столик</span>
+							</div>
+							<div class="oneRest">
+								<a href="#" title="Кафе Luxuary" class="name">Кафе Luxuary</a>
+								<span class="time">20:00</span>
+								<a href="#" title="Мазафака Концерт Весна">Мазафака Концерт Весна</a>
+								<span class="type">Живая музыка</span>
+								<span class="button">Забронировать столик</span>
+							</div>
+							<div class="oneRest">
+								<a href="#" title="The Pink Cadillac" class="name">The Pink Cadillac</a>
+								<span class="time">20:00</span>
+								<a href="#" title="DJ Hassan Chillout Week">DJ Hassan Chillout Week</a>
+								<span class="type">Дискотека</span>
+								<span class="button">Забронировать столик</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="blockContent restaurants">
+				<div class="widthContent">
+					<div class="oneRest vip">
+						<div class="blockPhoto">
+							<span class="photo">
+								<span class="lenta">
+									<img src="images/rest_1.jpg" width="200" height="130" alt="1" />
+								</span>
+							</span>
+							<span class="prev"><span></span></span>
+							<span class="next"><span></span></span>
+						</div>
+						<div class="infoBlock">
+							<dl>
+								<dt><a href="#" title="Ресторан Miss Marple">Ресторан Miss Marple</a></dt>
+								<dd>
+									<span class="rating">
+									  <span class="cur">1</span>
+									  <span class="cur">2</span>
+									  <span class="cur">3</span>
+									  <span class="cur">4</span>
+									  <span class="cur">5</span>
+									</span>
+									
+									<span class="typeList">
+										<span>Ресторан</span>
+										<span>Банкетный зал</span>
+									</span>
+									
+									<span class="button">Забронировать столик</span>
+								</dd>
+							</dl>
+						</div>
+						<div class="extInfoBlock">
+							<table>
+								<tr>
+									<td>Кухня:</td>
+									<td>Французская</td>
+								</tr>
+								<tr>
+									<td>Средний счет:</td>
+									<td>2000-3000р</td>
+								</tr>
+								<tr>
+									<td>Телефон:</td>
+									<td>(495) 988-26-56</td>
+								</tr>
+								<tr>
+									<td>Адрес:</td>
+									<td>Москва, ул. Кузнецкий Мост, д. 6/3, стр. 3</td>
+								</tr>
+								<tr>
+									<td>Кол-во залов:</td>
+									<td>2 зала - 100 мест</td>
+								</tr>
+								<tr>
+									<td>Время работы:</td>
+									<td>пн-пт 8:00-24:00, сб-вс 12:00-24:00</td>
+								</tr>
+							</table>
+						</div>
+						<span class="favorStar cur">&nbsp;</span>
+					</div>			
+					<div class="oneRest vip">
+						<div class="blockPhoto">
+							<span class="photo">
+								<span class="lenta">
+									<img src="images/rest_2.jpg" width="200" height="130" alt="2" />
+								</span>
+							</span>
+							<span class="prev"><span></span></span>
+							<span class="next"><span></span></span>
+						</div>
+						<div class="infoBlock">
+							<dl>
+								<dt><a href="#" title="Кафе DownTown">Кафе DownTown</a></dt>
+								<dd>
+									<span class="rating">
+									  <span class="cur">1</span>
+									  <span class="cur">2</span>
+									  <span class="cur">3</span>
+									  <span class="cur">4</span>
+									  <span class="cur">5</span>
+									</span>
+									
+									<span class="typeList">
+										<span>Ресторан</span>
+										<span>Банкетный зал</span>
+									</span>
+									
+									<span class="button">Забронировать столик</span>
+								</dd>
+							</dl>
+						</div>
+						<div class="extInfoBlock">
+							<table>
+								<tr>
+									<td>Кухня:</td>
+									<td>Французская</td>
+								</tr>
+								<tr>
+									<td>Средний счет:</td>
+									<td>2000-3000р</td>
+								</tr>
+								<tr>
+									<td>Телефон:</td>
+									<td>(495) 988-26-56</td>
+								</tr>
+								<tr>
+									<td>Адрес:</td>
+									<td>Москва, ул. Кузнецкий Мост, д. 6/3, стр. 3</td>
+								</tr>
+								<tr>
+									<td>Кол-во залов:</td>
+									<td>2 зала - 100 мест</td>
+								</tr>
+								<tr>
+									<td>Время работы:</td>
+									<td>пн-пт 8:00-24:00, сб-вс 12:00-24:00</td>
+								</tr>
+							</table>
+						</div>
+						<span class="favorStar">&nbsp;</span>
+					</div>			
+					<div class="oneRest">
+						<div class="blockPhoto">
+							<span class="photo">
+								<span class="lenta">
+									<img src="images/rest_3.jpg" width="200" height="130" alt="3" />
+								</span>
+							</span>
+							<span class="prev"><span></span></span>
+							<span class="next"><span></span></span>
+						</div>
+						<div class="infoBlock">
+							<dl>
+								<dt><a href="#" title="Кафе Luxuary">Кафе Luxuary</a></dt>
+								<dd>
+									<span class="rating">
+									  <span class="cur">1</span>
+									  <span class="cur">2</span>
+									  <span class="cur">3</span>
+									  <span class="cur">4</span>
+									  <span class="cur">5</span>
+									</span>
+									
+									<span class="typeList">
+										<span>Ресторан</span>
+										<span>Банкетный зал</span>
+									</span>
+									
+									<span class="button">Забронировать столик</span>
+								</dd>
+							</dl>
+						</div>
+						<div class="extInfoBlock">
+							<table>
+								<tr>
+									<td>Кухня:</td>
+									<td>Французская</td>
+								</tr>
+								<tr>
+									<td>Средний счет:</td>
+									<td>2000-3000р</td>
+								</tr>
+								<tr>
+									<td>Телефон:</td>
+									<td>(495) 988-26-56</td>
+								</tr>
+								<tr>
+									<td>Адрес:</td>
+									<td>Москва, ул. Кузнецкий Мост, д. 6/3, стр. 3</td>
+								</tr>								
+							</table>
+						</div>
+						<span class="favorStar">&nbsp;</span>
+					</div>	
+					
+					<div class="blockLine">
+					  <div class="pager">
+						  <a class="button cur" href="#" title="1">1</a>
+						  <a class="button" href="#" title="2">2</a>
+						  <a class="button" href="#" title="3">3</a>
+						  <a class="button" href="#" title="3">4</a>
+						  <a class="button" href="#" title="...">...</a>
+						  <a class="button" href="#" title="9">9</a>
+						</div>
+					</div>							
+				</div>
+				<div class="waveEdge"></div>
+			</div>
+			
+			
+			
+			
+         
+		 	
+		    
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

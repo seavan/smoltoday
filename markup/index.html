@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+    <script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./js/customInputs.js"></script>
+    <script type="text/javascript" src="./js/cloneApi.js"></script>
+    
+    <script type="text/javascript" src="./js/placeholder.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/tango/skin.css" rel="stylesheet" type="text/css" />
+    <link href="./css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />  
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+		
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?">Забыли пароль?</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock">
+							<p>Поиск по сайту</p>
+							<form action="#">								
+								<label for="search" class="_autohide">например: <i>Кинотеатры</i></label>
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+						<div class="authBlock">      
+							<a href="#" title="Регистрация" class="register">Регистрация</a>							
+							<a href="#" title="Вход" class="enter">Вход</a>
+						</div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+            <div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            <div class="weatherPopUp" style="display:none;">
+                            	<span class="close"></span>
+                                
+                                <span class="selectedInfo">   
+                                	<span class="time">Утро</span>                                 
+                                    <span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь">+2</span>
+                                </span>
+                                <span class="selectedInfo">   
+                                	<span class="time">День</span>                                 
+                                    <span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь">+15</span>
+                                </span>
+                                <span class="selectedInfo">   
+                                	<span class="time">Вечер</span>                                 
+                                    <span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь">+8</span>
+                                </span>
+                            </div>
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+									</td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+            
+            <div class="blockNews">
+            	<div class="widthContent">
+					<div class="newsBlock">
+						<div class="headerBlock">
+							<h3>Главные новости</h3>
+							<div class="selectorNews">
+								<span class="cur">Новости<span></span></span>
+								<span>Афиша<span></span></span>
+								<span>Видео<span></span></span>
+							</div>
+						</div>
+						
+						<div class="photoBlock">
+							
+							<span class="lArrow">
+								<span class="bg"></span>
+								<span class="arrow"></span>
+							</span>
+							<span class="rArrow">
+								<span class="bg"></span>
+								<span class="arrow"></span>
+							</span>
+							
+							<div class="imgContainer">
+                            	<div class="lenta cur">
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_1.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <span class="titleNews">
+											<span class="overlay"></span>
+											<a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+											Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+										</span>
+                                    </div>
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_1.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <span class="titleNews">
+											<span class="overlay"></span>
+											<a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+											Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+										</span>
+                                    </div>
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_1.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <span class="titleNews">
+											<span class="overlay"></span>
+											<a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+											Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+										</span>
+                                    </div>
+                                </div>   
+                                
+                                <div class="lenta">
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_2.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <div class="titleNews">
+                                            <a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+                                                Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+                                        </div>
+                                    </div>
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_2.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <div class="titleNews">
+                                            <a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+                                                Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+                                        </div>
+                                    </div>
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_2.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <div class="titleNews">
+                                            <a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+                                                Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+                                        </div>
+                                    </div>
+                                </div>   
+                                
+                                <div class="lenta">
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_3.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <div class="titleNews">
+                                            <a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+                                                Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+                                        </div>
+                                    </div>
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_3.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <div class="titleNews">
+                                            <a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+                                                Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+                                        </div>
+                                    </div>
+                                    <div class="imgBlock">
+                                    	<ul class="dateSelector">
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  15:23</p>
+                                            </li>
+                                            <li class="cur">
+                                                <span></span>
+                                                <p>20.05.2013  16:15</p>
+                                            </li>
+                                            <li>
+                                                <span></span>
+                                                <p>20.05.2013  17:23</p>
+                                            </li>
+                                        </ul>
+                                    	<img src="images/news_3.jpg" width="650" height="288" alt="Глава российского МВД назвал смертную казнь «нормальной реакцией общества»" /> 
+                                        <div class="titleNews">
+                                            <a href="#" title="Глава российского МВД назвал смертную казнь нормальной реакцией общества">
+                                                Глава российского МВД назвал смертную казнь «нормальной реакцией общества»</a>
+                                        </div>
+                                    </div>
+                                </div>                                
+							</div>
+							
+							
+							<div class="shadow"></div>
+						</div>
+						
+						<a href="#" title="Все новости" class="allNews">Все новости <span>&rarr;</span></a>
+						
+					</div>
+					<div class="bannerBlock">
+						<div class="socialLinks">
+							<span>Поделиться</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>
+								<a href="#" class="odnkl" title="odnoklassniki">odnoklassniki</a>								
+							</span>							
+						</div>
+						<div class="banner">
+							<a href="#" title="Ваш баннер 240*400">
+								<img src="images/mts_left.jpg" width="240" height="400" alt="Ваш баннер 240*400" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="waveEdge"></div>
+			</div>
+			
+			<div class="blockPrice">
+            	<div class="waveEdge"></div>
+				<div class="widthContent">
+					<span class="lArrow"></span>
+					<span class="rArrow"></span>
+					
+					<div class="name">Цены<br/>в городе</div>
+					
+					<div class="prices">
+                    	<div class="lenta">
+                        	<span class="price fuel">
+                            	<span class="num">31</span>
+                                <span class="txt">руб.</span>
+                                <small>АИ95 / литр</small>
+								
+								<span class="moreInfo">
+                                	<span class="price fuel">
+                                        <span class="num">31</span>
+										<span class="txt">руб.</span>
+										<small>АИ95 / литр</small>
+                                    </span>                                    
+                                </span>
+                            </span>
+                            <span class="price taxi">
+                            	<span class="num">80</span>
+                                <span class="txt">руб.</span>
+                                <small>такси по району</small>
+								
+								<span class="moreInfo">
+                                	<span class="price taxi">
+                                        <span class="num">80</span>
+										<span class="txt">руб.</span>
+										<small>такси по району</small>
+                                    </span>                                    
+                                </span>
+                            </span>
+                            <span class="price eat">
+                            	<span class="num">150</span>
+                                <span class="txt">руб.</span>
+                                <small>бизнес-ланч</small>
+                                
+                                <span class="moreInfo">
+                                	<span class="price eat">
+                                        <span class="num">150</span>
+                                        <span class="txt">руб.</span>
+                                        <small>бизнес-ланч</small>
+                                    </span>
+                                    <span class="moreList">
+                                    	<span><a href="#" title="Кафе Лесоповал">Кафе "Лесоповал"</a></span>
+                                        <span><a href="#" title="Кафе Лесоповал">Ресторан "Чайка"</a></span>
+                                        <span><a href="#" title="Кафе Лесоповал">Кафе "Ашкым"</a></span>
+                                    </span>
+                                    <a href="#" title="Показать всё" class="moreLink">Показать всё &rarr;</a>
+                                </span>
+                            </span>
+                            <span class="price hotel">
+                            	<span class="num">2000</span>
+                                <span class="txt">руб.</span>
+                                <small>номер на выходные</small>
+								
+								<span class="moreInfo">
+                                	<span class="price hotel">
+                                        <span class="num">2000</span>
+										<span class="txt">руб.</span>
+										<small>номер на выходные</small>
+                                    </span>                                    
+                                </span>
+                            </span>
+                            <span class="price realty">
+                            	<span class="num">30 000</span>
+                                <span class="txt">руб.</span>
+                                <small>м2 н/с / центр</small>
+								
+								<span class="moreInfo">
+                                	<span class="price realty">
+                                        <span class="num">30 000</span>
+                                		<span class="txt">руб.</span>
+                                		<small>м2 н/с / центр</small>
+                                    </span>                                    
+                                </span>
+                            </span>
+                        </div>
+                       </div>
+					
+				</div>
+				
+			</div>
+			
+			<div class="blockContent mainPage">
+				<div class="widthContent">
+					<div class="leftBlock">
+						<div class="blockLine">
+							<dl class="news">
+								<dt><a href="#" title="Новости Смоленска">Новости Смоленска</a></dt>
+								<dd>
+									<span class="data">
+										<a href="#" title="">
+										<img src="images/photo_news_5.jpg" width="79" height="80" alt="5" />
+										Жители одного из домов Вязьмы обратились с жалобой</a>
+										<br/><br/>
+										к уполномоченному по правам человека Об этом говорили в Вязьме во время <span>&rarr;</span>
+									</span>
+									<span class="info">
+										<span class="time">14:25</span>
+										<span class="rating">
+											<span class="cur">1</span>	
+											<span class="cur">2</span>
+											<span class="cur">3</span>
+											<span class="cur">4</span>
+											<span>5</span>										
+										</span>
+										<span class="comments">000</span>
+										<span class="views">123</span>										
+									</span>
+								</dd>
+								<dd>
+									<span class="data">
+										<a href="#" title="">
+										<img src="images/photo_news_6.jpg" width="79" height="80" alt="6" />
+										Смоленские корни американского такси</a>
+										<br/><br/>
+										В феврале прошлого года исполнилось 90 лет знаменитой американской автомобилестроительной компании <span>&rarr;</span>
+									</span>
+									<span class="info">
+										<span class="time">Вчера в 20:45</span>
+										<span class="rating">
+											<span class="cur">1</span>	
+											<span class="cur">2</span>
+											<span class="cur">3</span>
+											<span class="cur">4</span>
+											<span class="cur">5</span>										
+										</span>
+										<span class="comments">24</span>
+										<span class="views">2300</span>										
+									</span>
+								</dd>
+								<dd>
+									<span class="data">
+										<a href="#" title="">
+										<img src="images/photo_news_7.jpg" width="79" height="80" alt="7" />
+										В России упростилась процедура усыновления детей</a>
+										<br/><br/>
+										С 27 февраля в России вступает в силу постановление правительства, которое упрощает процедуру усыновления детей.
+									</span>
+									<span class="info">
+										<span class="time">17.02.2013</span>
+										<span class="rating">
+											<span class="cur">1</span>	
+											<span class="cur">2</span>
+											<span>3</span>
+											<span>4</span>
+											<span>5</span>										
+										</span>
+										<span class="comments">240</span>
+										<span class="views">2300</span>										
+									</span>
+								</dd>
+							</dl>
+							<dl class="sale">
+								<dt><a href="#" title="Лучшие скидки">Лучшие скидки</a></dt>
+								<dd>
+									<span class="data">
+                                    	<a href="#" title=""><img src="images/photo_sale_1.jpg" width="79" height="80" alt="5" /></a>
+                                        <span>
+                                            <span class="saleValue">55%</span>
+                                            <span class="price">250 руб.</span>
+                                        </span>
+										<a href="#" title="">Чудо-шарф-трансформер</a>
+										<br/><br/>
+										Оригинальная штуковина от интернет-магазина
+									</span>									
+								</dd>
+								<dd>
+									<span class="data">
+                                    	<a href="#" title=""><img src="images/photo_sale_2.jpg" width="79" height="80" alt="6" /></a>
+                                        <span>
+                                            <span class="saleValue">80%</span>
+                                            <span class="price">1 250 руб.</span>
+                                        </span>
+										<a href="#" title="">Ненужная фигня</a>
+										<br/><br/>
+										Оригинальная штуковина от интернет-магазина
+									</span>									
+								</dd>
+								<dd>
+									<span class="data">
+                                    	<a href="#" title=""><img src="images/photo_sale_3.jpg" width="79" height="80" alt="7" /></a>
+                                        <span>
+                                            <span class="saleValue">55%</span>
+                                            <span class="price">250 руб.</span>
+                                        </span>
+										<a href="#" title="">Чудо-шарф-трансформер</a>
+										<br/><br/>
+										Оригинальная штуковина от интернет-магазина
+									</span>									
+								</dd>
+							</dl>
+						</div>
+						<div class="blockLine">
+							<dl class="cinema">
+								<dt><a href="#" title="В кинотеатрах">В кинотеатрах</a></dt>
+								<dd>
+									<span class="img"><img src="images/cinema_1.jpg" width="82" height="114" alt="1" /></span>
+									<span class="cinemaInfo">
+										<span class="title">
+											<a href="" title="Отверженные">Отверженные</a>
+											<span class="time">с 25 февраля</span>
+											<span class="genre">Классика, роман, драма</span>
+										</span>
+										<span class="rating">Рейтинг Кинопоиска: <span>6,679</span></span>
+									</span>
+								</dd>
+								<dd>
+									<span class="img"><img src="images/cinema_2.jpg" width="82" height="114" alt="2" /></span>
+									<span class="cinemaInfo">
+										<span class="title">
+											<a href="" title="Как потерять друзей и заставить всех себя ненавидеть">Как потерять друзей и заставить всех себя ненавидеть</a>
+											<span class="time">с 25 февраля</span>
+											<span class="genre">Классика, роман, драма</span>
+										</span>
+										<span class="rating">Рейтинг Кинопоиска: <span>6,679</span></span>
+									</span>
+								</dd>
+								<dd>
+									<span class="img"><img src="images/cinema_3.jpg" width="82" height="114" alt="3" /></span>
+									<span class="cinemaInfo">
+										<span class="title">
+											<a href="" title="Отверженные">Отверженные</a>
+											<span class="time">с 25 февраля</span>
+											<span class="genre">Классика, роман, драма</span>
+										</span>
+										<span class="rating">Рейтинг Кинопоиска: <span>6,679</span></span>
+									</span>
+								</dd>
+							</dl>
+							<dl class="live">
+								<dt><a href="#" title="Концерты">Концерты</a></dt>
+								<dd>
+									<a href="#" title="">
+										<img src="images/live_1.jpg" width="310" height="114" alt="1" /> 
+										<span>451 по Фаренгейту</span>
+									</a>
+								</dd>
+								<dd>
+									<a href="#" title="">
+										<img src="images/live_2.jpg" width="310" height="114" alt="2" /> 
+										<span>Отдаленная близость</span>
+									</a>
+								</dd>
+								<dd>
+									<a href="#" title="">
+									<img src="images/live_3.jpg" width="310" height="114" alt="3" /> 
+									<span>Времена не выбирают</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div class="rightBlock">	
+					
+						<dl class="jobs">
+							<dt>Работа в смоленске</dt>
+							<dd>
+								<a href="#" title="">Менеджер по продажам</a>
+								<span>30 000</span>
+								<small>р./мес</small>
+								<a href="#" title="">и ещё 1 043 вакансий</a>
+							</dd>
+						</dl>	
+										
+						<dl class="events">
+							<dt>Обсуждаемые события</dt>
+							
+							<dd>
+								<span>
+									<a href="#" title="В России выступит Чак Берри">
+										<img src="images/photo_news_3.jpg" width="39" height="40" alt="3" />
+										В России выступит Чак Берри
+									</a>
+								</span>
+								<span>
+									<a href="#" title="комментари">1024 комментариея</a>
+								</span>
+							</dd>
+							<dd>
+								<span>
+									<a href="#" title="Я думал это паб, а это Самаанский Паб, и джунгли в стакане">
+										<img src="images/photo_news_4.jpg" width="39" height="40" alt="4" />
+										Я думал это паб, а это Самаанский Паб, и джунгли в стакане!
+									</a>
+								</span>
+								<span>
+									<a href="#" title="комментари">24 комментариея</a>
+								</span>
+							</dd>
+						</dl>
+						<dl class="blogs">
+							<dt>В блогах</dt>
+							<dd>
+								<a href="#" title="Зарплаты чиновников вырастут на 146% шок, видео, фото, без смс">Зарплаты чиновников вырастут на 146% шок, видео, фото, без смс</a>
+								<i>Егор Добронравов, юрист</i>
+							</dd>
+							<dd>
+								<a href="#" title="Мы строили строили, и наконец построили!">Мы строили строили, и наконец построили!</a>
+								<i>Чебурашка, ловеренное лицо В.В. Познера</i>
+							</dd>
+							<dd>
+								<a href="#" title="Куда подевалась группа Army of Lovers? Уж мы-то знаем!">Куда подевалась группа Army of Lovers? Уж мы-то знаем!</a>
+								<i>Кирилл Гундяев, бизнесмен</i>
+							</dd>
+						</dl>
+						
+						<dl class="quiz">
+							<dt>Опрос</dt>
+							<dd>
+								<i>Какой банк в Смоленске самый удобный?</i>
+								<form action="#">
+									<ul>
+										<li><span class="radio"><input type="radio" name="bank" value="1" checked/></span><span>ВТБ 24</span></li>
+										<li><span class="radio"><input type="radio" name="bank" value="2"/></span>Смоленский банк</li>
+										<li><span class="radio"><input type="radio" name="bank" value="3"/></span>Сбербанк</li>
+									</ul>
+									<div class="tools">
+										<span class="button">Голосовать</span>
+										<span class="result">Результаты</span>
+									</div>
+								</form>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="waveEdge"></div>
+			</div>
+			
+			<div class="blockCamera">
+				<div class="widthContent">					
+					<div class="headerBlock">
+						<h3>Камеры в городе</h3>	
+						<table>
+							<tr>
+								<td><a href="#" title="1"><img src="images/cam_1.jpg" width="290" height="170" alt="1" /><span>ул. Верхнешкляная, центр</span></a></td>
+								<td><a href="#" title="2"><img src="images/cam_2.jpg" width="290" height="170" alt="2" /><span>ул. Поперечная Моховая</span></a></td>
+								<td><a href="#" title="3"><img src="images/cam_3.jpg" width="290" height="170" alt="3" /><span>ул. Старопетрогрдаская</span></a></td>
+							</tr>
+						</table>					
+					</div>
+				</div>
+				<div class="waveEdge"></div>
+			</div>
+			
+			<div class="blockMap">
+				<div class="widthContent">
+					<p class="showMap">События и объекты на карте</p>
+				</div>
+				<div class="mapBlock">
+					<div class="map">
+						<img src="images/googleMap.jpg" width="1400" height="438" alt="map" />
+						<span class="point blue"></span>
+						<span class="point green"></span>
+						<span class="point orange"></span>
+						<span class="point pink"></span>
+						<span class="point lime"></span>
+						<span class="point black"></span>
+					</div>
+					<div class="tools">
+						<ul>
+							<li><span>Все объекты</span><span class="counter">139</span></li>
+							<li class="blue"><span>Кафе, рестораны</span><span class="counter">92</span></li>
+							<li class="green"><span>Кинотеатры</span><span class="counter">4</span></li>
+							<li class="orange"><span>Театры</span><span class="counter">4</span></li>
+							<li class="pink"><span>Концерты</span><span class="counter">9</span></li>
+							<li class="lime"><span>Клубы</span><span class="counter">16</span></li>
+							<li class="black"><span>Торговые центры</span><span class="counter">14</span></li>
+						</ul>
+					</div>
+				</div>
+							
+			</div>
+         
+		 	<div class="blockPhotoBank">
+				<div class="widthContent">					
+					<div class="headerBlock">
+						<h3>Фотобанк</h3>						
+					</div>
+					<table>
+						<tr>
+							<th>Фото дня</th>
+							<th>Популярные фотографии</th>
+						</tr>
+						<tr>
+							<td><img src="images/photo_1.jpg" width="473" height="299" alt="1" /></td>
+							<td>
+								<table>
+									<tr>
+										<td><img src="images/photo_2.jpg" width="233" height="146" alt="2" /></td>
+										<td>
+											<table>
+												<tr>
+													<td><img src="images/photo_4.jpg" width="116" height="72" alt="4" /></td>
+													<td><img src="images/photo_5.jpg" width="116" height="72" alt="5" /></td>
+												</tr>
+												<tr>
+													<td><img src="images/photo_6.jpg" width="116" height="72" alt="6" /></td>
+													<td><img src="images/photo_7.jpg" width="116" height="72" alt="7" /></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td><img src="images/photo_3.jpg" width="233" height="146" alt="3" /></td>
+										<td>
+											<table>
+												<tr>
+													<td><img src="images/photo_8.jpg" width="116" height="72" alt="8" /></td>
+													<td><img src="images/photo_9.jpg" width="116" height="72" alt="9" /></td>
+												</tr>
+												<tr>
+													<td><img src="images/photo_10.jpg" width="116" height="72" alt="10" /></td>
+													<td><img src="images/photo_11.jpg" width="116" height="72" alt="11" /></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>						
+					</table>
+				</div>
+			</div>
+		    
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

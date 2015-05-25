@@ -1,0 +1,422 @@
+﻿.formBody .enterForm .field .field-validation-error { color: #ff0000;position: absolute;bottom: -14px;}
+.blockContent.security { min-height: 350px; font-size:12px;line-height: 14px;}
+.blockContent.security h2 {font-size:24px; line-height:26px;font-weight: normal;padding-bottom:20px;}
+
+.formBody .enterForm .rightBlock .field {width:250px;}
+.formBody .enterForm .rightBlock .field input[type="text"] {width:150px;}
+.formBody .enterForm.registr form .rightBlock { padding-top: 0px;}
+
+.breadcrumbs { position: relative; z-index:10;}
+
+.changePasswordForm .field { display: block;margin: auto auto 15px;position: relative;width: 330px;}
+.changePasswordForm label._autohide { color: #8B8B8B;left: 7px;top: 10px;}
+.changePasswordForm .button {background:url(../i/bg_button_4.png) repeat-x; height:28px; padding:15px 40px 0px; font-size:20px; line-height:15px; color:#ffffff; cursor:pointer; display:block; 	font-weight:bold;
+	-webkit-border-radius: 6px;
+ 	-moz-border-radius: 6px;
+  	border-radius: 6px;
+	behavior: url(/content/css/PIE.htc);	
+	border-collapse: separate;width: 100px;margin: 20px auto 0px;text-align: center;
+}
+.changePasswordForm .field input[type=password],
+.changePasswordForm .field input[type=text] {width:316px; border:solid 3px #a8a8a8;height:25px; padding:0px 7px;color:#8b8b8b;background:url(../i/shadowTextarea.gif) 0 0 repeat-x;
+	-webkit-border-radius: 8px; 
+ 	-moz-border-radius: 8px;
+  	border-radius: 8px;
+	behavior: url(/content/css/PIE.htc);	
+	border-collapse: separate;
+	line-height:22px;
+}
+.changePasswordForm input[type=password].chromHack,
+.changePasswordForm .field input[type=text].chromHack {line-height:13px;}
+.changePasswordForm .field .field-validation-error { color: #ff0000;position: absolute;bottom: -14px;}
+
+p.infoOAuth {width:750px; margin:auto;font-size: 14px; line-height: 18px; margin-bottom:20px;}
+
+.info .rating { cursor: pointer;}
+
+.listNews dt {width:100%;}
+
+.listNews dd .info .time {width: 75px;}
+
+.oneComment.replyForm {display:none;}
+.oneNews p {margin-bottom:22px;}
+.photoVideoBlock .photo img { cursor: default;}
+.photoVideoBlock .photo .preview-pic img{ cursor: pointer;}
+.photoVideoBlock .photo .viewed-pic {height: 296px;width: 463px;}
+.similarRest .info { position: relative;}
+.oneCompany .infoBlock .info .comments.no {background-position: 0px -21px;}
+
+.blockContent.profilePage .rightBlock { float: left;}
+.blockContent.profilePage .leftBlock { float: right;}
+.profilePage .leftBlock {width:670px;}
+.profilePage .leftBlock .blockLine { clear: both;float: left;padding-bottom: 25px;width: 680px;}
+.oneRest .scrollable { margin: 0px;}
+.restaurants .oneRest .blockPhoto .prev.disabled,
+.restaurants .oneRest .blockPhoto .next.disabled { visibility: visible;}
+
+.restaurants .oneRest .blockPhoto .prev.disabled span,
+.restaurants .oneRest .blockPhoto .next.disabled span { background-image: url(../i/arrow_pn_grey.png);}
+
+.ui-datepicker { padding: 0px;font-family: Arial;}
+.ui-icon { background: none;text-indent: 0px;width: auto;height: auto;}
+.ui-datepicker .ui-datepicker-header { font-weight: normal;}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { margin-left: -8px;}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background: none;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: none;background: none;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: none;background: none;}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {opacity: 1;filter: alpha(opacity=100);}
+.ui-state-disabled .ui-state-default, .ui-widget-content .ui-state-disabled ui-state-default, .ui-widget-header .ui-state-disabled ui-state-default { color: #D0D0D0;}
+
+._calendarEvent .ui-datepicker td.ui-datepicker-other-month a { color: #555555;}
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary, .ui-widget-header .ui-priority-secondary {opacity: 1;filter: alpha(opacity=100);}
+
+._calendarEvent { margin-left:-20px;}
+
+.ui-datepicker-multi .ui-datepicker-group table { margin: 0px auto;width: 100%;}
+._calendarEvent .ui-datepicker-other-month { height: 25px;}
+
+
+span.comments > a { color: black; }
+.blogsBestList .blogsAdvt dt img { margin-right: 15px;}
+
+.subCategoryList li {padding-bottom:7px;padding-left: 10px;}
+.subCategoryList li.cur {background:url(../i/arrowNewsMenu_black.png) 0px 3px no-repeat;}
+
+
+
+.blockContent.staticPage .rightBlock { float: left;}
+.blockContent.staticPage .leftBlock { float: right;width: 100%; }
+
+.blockContent.staticPage .rightBlock h3 {font-size:24px; line-height:26px; color:#474848; font-weight:normal; margin-bottom:25px;}
+.staticPage .leftBlock .blockLine { clear: both;float: left;margin-bottom: 25px;/*width: 680px;*/}
+.staticPage .newsBlock {margin-bottom:35px;}
+
+.staticPage .newsBlock img {float:left;}
+
+.staticPage .newsBlock .photoNews img {margin-right:4px; margin-bottom:4px; width:108px; height:108px;}
+.staticPage .newsBlock .randomPhoto a {float:left; clear:both; display:block; white-space:nowrap; font-size:14px; line-height:16px; color:#1c1c1c; margin-bottom:10px; font-weight:bold;}
+.staticPage .newsBlock .randomPhoto img {width:200px; height:145px;}
+.staticPage .categoryBlock {float:left; clear:both;/*width: 680px;*/}
+.staticPage .categoryBlock h3 {font-weight:normal; font-size:18px; line-height:20px; margin-bottom:25px;*margin-bottom:55px;}
+
+.staticPage .categoryList a {float:left;display:block; white-space:nowrap; font-size:12px; line-height:14px; color:#1c1c1c; margin-bottom:10px; font-weight:bold;width:200px;margin-left:39px;}
+.staticPage .categoryList a:first-child {margin-left:0px;}
+.staticPage .categoryList img {width:200px; height:130px; float:left; margin-bottom:10px;}
+.staticPage .categoryList a span { float:left; clear:both; text-decoration:underline;}
+.staticPage .categoryList a:hover span {text-decoration:none;}
+.staticPage .tagCloud {width:240px; height:180px; background-color:#ffffff;}
+.staticPage .tagCloud li a {text-decoration:none; color:#000000;}
+.staticPage .tagCloud li a:hover {text-decoration:underline;}
+.staticPage .categoryName {float:left;position:relative; width:100%;}
+.staticPage .categoryBlock .categoryName h3 {font-size:24px; line-height:26px; color:#474848; margin-top:0px;}
+
+/*.staticPage p, .staticPage ul, .staticPage li { font-size: 12px; }*/
+.staticPage p, .staticPage ul { margin-bottom: 22px; line-height: 21px; font-size:14px;color: #555555; }
+.staticPage h3 { font-weight:normal; font-size:18px; line-height:20px; color:#cd171e; margin-bottom:25px; margin-top:5px;}
+.staticPage h2 { font-weight:normal; font-size:20px; line-height:20px; color:#cd171e; margin-bottom:25px; margin-top:5px;}
+.staticPage h2 { font-weight:normal; font-size:20px; line-height:20px; color:#cd171e; margin-bottom:25px; margin-top:5px;}
+
+
+.filterBody.map .map { overflow: hidden;height: 280px;}
+.advertOneBlock .infoBlock {padding-top:0px;display:inline-block; *float:left; vertical-align:top; width:295px;}
+.advertOneBlock .infoBlock table td:first-child {width:110px; padding-right:30px;}
+
+/*.mapBlock .map { width: 1400px; margin: auto;}*/
+
+h4.lead { color: silver; color: #6C6C6C; margin-top: -24px; margin-bottom: 24px; }
+
+
+.oneComment .enterLink { text-decoration: underline; cursor:pointer;color: #0A6E93;}
+.oneComment .enterLink:hover { text-decoration: none;}
+
+.photoList .imgBlock .bigPreview {background-color:#484848; padding:12px; display:block; position:absolute; width:325px; z-index:1000; left:70px; top:70px; display:none;}
+
+.socialLinks span:first-child {padding-top:2px;}
+.photoVideoBlock .addthis_toolbox {min-width: 240px;}
+.actionInfoPanel .addthis_toolbox { float: right;min-width: 140px;}
+.photoOneBlock .addthis_toolbox, 
+.bannerBlock .addthis_toolbox {line-height:16px;}
+
+.enterForm.add_question form,
+.enterForm.add_action form { margin-top: 100px;}
+.enterForm.add_question .field,
+.enterForm.add_action .field { margin: auto auto 15px;}
+
+.newsPage .blockLine .button.moreThemePhoto {background:url(../i/bg_button_5.gif) repeat-x; height:23px; padding:13px 22px 0px; font-size:13px; line-height:15px; color:#333333; cursor:pointer; display:inline-block; 
+	-webkit-border-radius: 5px;
+ 	-moz-border-radius: 5px;
+  	border-radius: 5px;
+	behavior: url(/content/css/PIE.htc);	
+	border-collapse: separate; position:relative;
+	margin-left:285px; font-weight:bold;box-shadow:0px 1px 1px #888888;margin-top:5px; margin-bottom:20px;
+}
+
+.socialLinks .addthis_toolbox a { text-indent: 0;background-image:none;height: auto;width: auto;display: inline;margin: 0px;font-size:12px; }
+.socialLinks .addthis_toolbox span:first-child,
+.socialLinks .addthis_toolbox span { margin:0px;padding: 0px;font-weight: normal;  }
+
+.restauran .galleryPhoto .scrollable { height: 40px;}
+.popVacancy dd .price { float: right;position: relative;white-space: nowrap;}
+.popVacancy dd a { display: inline;width: auto; padding-bottom:5px;float: left;}
+.popVacancy dd p {float: left;width: 100%;}
+.overlayBlock #yandexMap { width: 100%;height: 520px;}
+.companyOne .mapBlock { width: 680px;}
+.searchLine .cur { color: red;}
+.restauran .infoBlock .button {
+-webkit-border-radius: 3px;
+ 	-moz-border-radius: 3px;
+  	border-radius: 3px;
+	border-collapse: separate;
+	position:relative;
+	display:inline-block; 
+	color:#ffffff;
+	background-color:#da1921;
+	padding:6px 15px;
+	behavior: url(/content/css/PIE.htc);
+	float: left; clear:both;
+	font-size:12px; line-height:14px;
+	cursor:pointer;
+}
+
+
+/*Dialog jquery*/
+.ui-widget-overlay {background: none; background-color: #FFFFFF;height: 100%;left: 0px;opacity: 0.7;filter: alpha(opacity=70);position: fixed;top: 0px;width: 100%; z-index: 10000;}
+.ui-dialog .ui-dialog-titlebar {background: none;border: none;font-size: 24px;line-height: 26px;margin-bottom: 20px;font-weight: normal;}
+.ui-dialog .ui-dialog-titlebar {padding: 0px;}
+.ui-dialog .ui-dialog-title { margin: 0px;}
+.ui-dialog .ui-dialog-titlebar-close {background: url(../i/formClose.png) no-repeat;cursor: pointer;height: 9px;position: absolute;right: -30px;top: -10px;width: 10px;}
+.ui-widget-header .ui-dialog-titlebar-close .ui-icon { background: none;height: 10px;text-indent: -999999px;}
+.ui-dialog.ui-widget-header { color: #000000;}
+.ui-dialog.ui-widget-content { border: none;background: none;background-color: #ffffff;border-collapse: separate; box-shadow:0px 8px 15px #9e9e9e; behavior: url(/content/css/PIE.htc);padding: 35px 45px;}
+.ui-dialog .ui-dialog-content { padding: 0px;}
+.ui-dialog-content table td:first-child { padding-right: 20px;}
+.ui-dialog-content input[type=button] {background: url(../i/bg_button_7.gif) repeat-x; border-collapse: separate; -webkit-border-radius: 3px; 	-moz-border-radius: 3px;  	border-radius: 3px;
+	behavior: url(/content/css/PIE.htc);	box-shadow: 0px 1px 1px #888888;color: #454545;cursor: pointer;display: inline-block;margin: 0px; padding:7px 15px 5px; position:relative;
+	font-size:12px; line-height:14px; margin-right:12px;border: none;margin-top: 15px;}
+	
+.ui-widget.ui-dialog td > input[type=text],
+.ui-widget.ui-dialog td > input[type=password],
+.ui-widget.ui-dialog td > textarea {border:solid 1px #a8a8a8;height:25px; padding:0px 7px;color:#8b8b8b;background:url(../i/shadowTextarea.gif) 0 0 repeat-x;
+	-webkit-border-radius: 8px; 
+ 	-moz-border-radius: 8px;
+  	border-radius: 8px;
+	behavior: url(/content/css/PIE.htc);	
+	border-collapse: separate;
+	line-height:22px;
+}
+
+#advert_filter .selectorCount {position:absolute;top:40px;right:0;}
+
+
+.commentsNews { width: 670px; }
+.allComments .oneComment {width: 600px;}
+.allComments .oneComment .commentBody {width:570px;}
+.allComments .oneComment > p {padding-right:55px;}
+
+.listNews span.popular_news table { width: 180px;}
+.listNews span.popular_news img+table{width:132px;}
+.grayCreateBlock.profile {display:none;}
+.rightBlock .advertTools li span{color:white;}
+.createBlock input[type="text"].range { width:80px;}
+.createBlock .datepickerProfile+.ui-datepicker-trigger {cursor:pointer; position:absolute; margin-top:6px; margin-left:-22px;}
+
+.overlayProfile {width:100%; height:100%; position:fixed; z-index:10000; display:none; left:0px; top:0px;}
+.overlayProfile .overlayLayer {z-index: 10000;}
+.preloader {background: url(../i/100.gif) no-repeat;position: absolute; top:50%;left: 50%;display: block; width:32px; height:32px;}
+
+.imgareaselect-outer { background-color: #000000;opacity: 0.5;filter: alpha(opacity=50);}
+.imgareaselect-border1, .imgareaselect-border2, .imgareaselect-border3, .imgareaselect-border4 { opacity: 0.5;filter: alpha(opacity=50);}
+.imgareaselect-border1 { background: url(../i/border-v.gif) repeat-y transparent;}
+.imgareaselect-border2 { background: url(../i/border-h.gif) repeat-x transparent;}
+.imgareaselect-border3 { background: url(../i/border-v.gif) 100% 0% repeat-y transparent;}
+.imgareaselect-border4 { background: url(../i/border-h.gif) 0% 100% repeat-x transparent;}
+.avatarCrop,
+.previewBlock {z-index:100;}
+
+.avatarCrop{background-color: #ffffff;border-collapse: separate; box-shadow:0px 8px 15px #9e9e9e; behavior: url(/content/css/PIE.htc);padding: 25px 35px;}
+.avatarCropControl .button { background: url(../i/bg_button_7.gif) repeat-x; border-collapse: separate;float: right;
+-webkit-border-radius: 3px; 	
+-moz-border-radius: 3px;  	
+border-radius: 3px;
+	behavior: url(/content/css/PIE.htc);	box-shadow: 0px 1px 1px #888888;color: #454545;cursor: pointer;display: inline-block;height: 19px; padding:7px 15px 0px; position:relative;
+	font-size:12px; line-height:14px; margin-left:12px;}
+.avatarCropControl .button.btnSave {background-image:url(../i/bg_button_blue.png);}
+
+.grayCreateBlock.profile {width:660px;}
+.inputFileWrapper .text.photo {width:250px;}
+
+.companyList .sortingTools .linkFavor { position: absolute;right: 150px;top: 9px; background:url(../i/advertToolsIco.png) no-repeat 0 0; padding-left:22px;font-size: 14px;line-height: 16px;}
+.companyList .sortingTools .linkFavor.cur {background-color:#d7f3fd; padding:10px 15px 10px 42px; background-position:20px 10px; top: 0px;
+border-collapse: separate;
+-webkit-border-radius: 3px; 	
+-moz-border-radius: 3px;  	
+border-radius: 3px;
+	behavior: url(/content/css/PIE.htc); display:inline-block;
+	}
+.companyList .sortingTools .linkFavor.cur a {text-decoration:none;}
+.companyList .sortingTools .linkFavor.cur a:hover {text-decoration:underline;}
+
+.profileMenu li.cur { background: url(../i/arrowNewsMenu_black.png) 9px 3px no-repeat transparent; }
+.profilePage .createBlock .field-validation-error {font-size:11px; line-height:13px;color: #ff0000;padding-top: 5px;}
+.need {color: #ff0000;}
+
+.breadcrumbs li { padding-bottom: 5px;}
+.blockMap.companyPage { padding-bottom: 20px;}
+
+.oneBlog p img { max-width: 670px;}
+
+.blockPrice.photo .searchBlock ul li label { white-space: normal;}
+
+.enterForm .validatorMessage { position: absolute; right: 185px; color: Red;}
+
+.advert-img-preview {position: relative;display: inline-block;vertical-align: top; margin-bottom:10px;}
+.btn-delete {background:url(../i/del_cross_red.png) no-repeat 0 0; cursor:pointer;width:16px; height:15px; display:inline-block;position:absolute;right:0;}
+
+.blockPhotoBank .headerBlock h3 a { color: #ffffff;text-decoration: none;}
+.blockPhotoBank .headerBlock h3 a:hover { text-decoration: underline;}
+
+.scrollable-wrapper .prev-button.disabled, .scrollable-wrapper .next-button.disabled { visibility: visible;}
+.scrollable-wrapper .prev-button.disabled span {background-image: url(../i/arrow_pn_grey.png);}
+.scrollable-wrapper .next-button.disabled span {background-image: url(../i/arrow_pn_grey.png);}
+
+.ymaps-b-balloon__content-body {padding-top:5px;}
+.vacancySearchResult .vacancySearch .searchLine { margin-bottom: 10px;}
+
+.blockContent.photoPage .rightBlock h3 a { text-decoration: none;color: #474848;}
+.blockContent.photoPage .rightBlock h3 a:hover { text-decoration: underline;}
+
+.vacancyOne .buttonPanel .complaintLink { font-size: 14px;line-height: 16px;margin-left: 0px;float: right;margin-top:5px;}
+#ad-images .inputFileWrapper { margin-top: 5px;}
+#ad-images  { margin-bottom: 5px;}
+
+
+input.fld, textarea.fld {
+    width: 316px;
+    border: solid 3px #a8a8a8;
+    padding: 0 7px;
+    color: #8b8b8b;
+    background: url(../i/shadowTextarea.gif) 0 0 repeat-x;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    behavior: url(/content/css/PIE.htc);
+    border-collapse: separate;
+    line-height: 22px;
+}
+    
+span.btn {
+    background: url(../i/bg_button_4.png) repeat-x;
+    height: 28px;
+    padding: 15px 40px 0;
+    font-size: 20px;
+    line-height: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    behavior: url(/content/css/PIE.htc);
+    border-collapse: separate;
+}
+    
+#photo-order-form {
+    display: none;
+}
+    
+.tools ul li.no { background: none;}
+    
+.blockPrice.index .prices {overflow: hidden;}
+.blockPrice.index .prices .lenta {width: 10000px;}
+    
+.saleList .blockLine dt,
+.saleOne  .blockLine dt { overflow:hidden; }
+    
+.blockHeader.v2 .metrics {margin-left:0px;border-left: none;}
+.blockHeader.v2 .smollforum { float: right; margin-right:35px;height: 61px;border-left: 1px dashed #9AB0B5;padding-left: 40px; }
+.moreMaterials dd span a span.comments {margin-top: -3px;}
+
+.randomVacancy .inCompany > a { float: left;}
+.randomVacancy dd { margin-bottom: 0px; *padding-bottom: 15px;}
+.randomVacancy dd a { width: 220px;margin-bottom: 15px;}
+.photoVideoBlock li.info {margin-right:0px;}
+.photoVideoBlock li.info .descr { float: left;color: #818181;text-decoration: none;border: none; margin-right:8px;}
+.photoVideoBlock li.socialLinks {margin-top:-5px;}
+
+.advertCategoryList > div.vacancyTools{ width: auto;float: none;}
+.advertCategoryList > div.vacancyTools .button { background-image: url(../i/bg_button_green.png);}
+
+.advertList > div.vacancyTools{ width: auto;float: none;}
+.advertList > div.vacancyTools .button { background-image: url(../i/bg_button_green.png);}
+
+.saleList .blockLine dt a.noLogo, .saleOne .blockLine dt a.noLogo { background: url(../i/saleLogo.png) no-repeat 50% 50% #e9e9e9;text-decoration: none;}
+
+.archive .ui-datepicker-current-day {background-color: #FFF6F6;color: #A55353;}
+.archive .ui-datepicker-current-day .ui-state-active {color: #A55353;}
+.archive .ui-datepicker td.ui-datepicker-current-day { border: solid 1px #e4d5d5;}
+.listNews.oneTheme dl { height: auto;}
+
+.vacancyOne form .buttonPanel span.isPublishCheckBox { float: left;margin: 0px;padding: 0px;text-align: left; width:150px;}
+.vacancyOne form .buttonPanel span.isPublishCheckBox > span.checkbox { padding-left: 25px;}
+.vacancyOne form .buttonPanel .button.publish {margin-left: -100px;}
+
+.randomVacancy .fromWeek dd a { width: auto;float: left; margin-bottom: 5px;}
+.randomVacancy .fromWeek dd { float: left;height: auto;}
+.randomVacancy .fromWeek dd > span { float: right; font-size:14px;}
+.randomVacancy .fromWeek dd > span.company { position: relative;float: left;margin: 10px 0px;width: 100%;}
+
+.advertOne .advertOneBlock .photo_big > a > img {width:335px;}
+
+.ui-autocomplete .ui-corner-all { border: 1px solid #ffffff;}
+.ui-autocomplete .ui-corner-all small { display: block; width:100%;padding-top: 5px;}
+.ui-autocomplete .ui-corner-all strong {color: #076C93;}
+
+.ui-autocomplete .ui-state-hover.ui-corner-all, 
+.ui-autocomplete.ui-widget-content .ui-state-hover.ui-corner-all, 
+.ui-autocomplete.ui-widget-header .ui-state-hover.ui-corner-all, 
+.ui-autocomplete .ui-state-focus, 
+.ui-autocomplete.ui-widget-content .ui-state-focus, 
+.ui-autocomplete.ui-widget-header .ui-state-focus { border: 1px solid #999999;	background: #dadada url(images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;	color: #212121;}
+
+.mapBlock .tools ul {margin-top:0px;}
+.mapBlock .tools {height:210px;padding: 25px 0px;width: 260px;}
+.advert-img-preview img {max-width:440px;vertical-align: top;}
+.photoOneBlock .license label { display: block;}
+.actionInfoPanel .addThisPreText {float:right; margin-right:5px;}
+.blockContent.posterPage .actionName h3 {width:420px;float: left;}
+.blockContent.posterPage .actionName { width: 670px;}
+.actionName .socialPage { float: right;margin-top: 6px;}
+.socialPage > span {padding-top:2px;float: left;color: #8C8C8C;font-size: 12px;line-height: 14px;}
+.socialPage a { float: left; margin-left:5px;}
+.blockContent.posterPage .actionName .socialPage a .at16nc { background: url(../i/widget015_top.png) no-repeat;}
+
+.blockContent.posterPage .actionName .socialPage a .at16nc.at16t_facebook { 
+background-position: 0px -288px;
+}
+.blockContent.posterPage .actionName .socialPage a .at16nc.at16t_vk { 
+background-position: 0px -896px;
+}
+.blockContent.posterPage .actionName .socialPage a .at16nc.at16t_google_plusone_share { 
+background-position: 0px -368px;
+}
+.blockContent.posterPage .actionName .socialPage a .at16nc.at16t_mymailru { 
+background-position: 0px -576px;
+}
+.blockContent.posterPage .actionName .socialPage a .at16nc.at16t_twitter { 
+background-position: 0px -864px;
+}
+.blockContent.posterPage .actionName .socialPage a .at16nc.at16t_odnoklassniki_ru { 
+background-position: 0px -1008px;
+}
+.at_a11y { 
+height: 1px !important;
+overflow: hidden !important;
+position: absolute !important;
+top: auto !important;
+width: 1px !important;
+}
+.at16nc { 
+line-height: 16px !important;
+}
+

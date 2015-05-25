@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <asp:ContentPlaceHolder runat="server" ID="Meta">
+    <meta property="vk:image" content="http://dynamotv.ru/content/i/shareImg.png" />
+    <meta property="og:image" content="http://dynamotv.ru/content/i/shareImg.png"/>        
+    </asp:ContentPlaceHolder>
+    <title><asp:ContentPlaceHolder ID="Title" runat="server">Видеопортал ФК "Динамо" Москва</asp:ContentPlaceHolder></title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic'
+        rel='stylesheet' type='text/css'>
+    <link href="/content/css/main.css?v=7" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/content/js/jquery.js"></script>
+    <script type="text/javascript" src="/content/js/main.js"></script>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?71"></script>
+    <script type="text/javascript">
+        VK.init({ apiId: 3281075, onlyWidgets: true });
+    </script>
+<script type="text/javascript">    var switchTo5x = false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">    stLight.options({ publisher: "7a8a5a61-0ab1-43e5-bdee-b83c361941d7" });</script>
+</head>
+<body>
+    <div class="all">
+        <div class="widthSite">
+            <% Html.RenderPartial("Header"); %>
+            
+            <asp:ContentPlaceHolder runat="server" ID="TvProgram">
+            </asp:ContentPlaceHolder>
+<div style="background:#0050b0 ; color: white; height: 37px; font-size: 20px; line-height: 37px; padding-left: 20px" id="subtitle"></div>    
+            
+            <div style="background: white; height: 10px; line-height: 10px; font-size: 10px">&nbsp;</div>
+            <div class="content_site" style="background: #0050b0">
+                <div class="baseContent">
+                    <asp:ContentPlaceHolder runat="server" ID="Main"></asp:ContentPlaceHolder>
+                </div>
+                <div class="additionalContent">
+                    <% Html.RenderPartial("Upcoming"); %>
+                    <% Html.RenderPartial("VKWidget"); %>
+                    <% Html.RenderPartial("Tweets"); %>
+                    
+                </div>
+            </div>
+            <% Html.RenderPartial("Footer"); %>
+            <script>
+                $('#subtitle').text($('#subtitle_hidden').val());
+            </script>
+        </div>
+    </div>
+</body>
+</html>

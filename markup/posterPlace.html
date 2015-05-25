@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+    <script type="text/javascript" src="./js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="./js/customInputs.js"></script>
+    <script type="text/javascript" src="./js/cloneApi.js"></script>
+    
+    <script type="text/javascript" src="./js/placeholder.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/tango/skin.css" rel="stylesheet" type="text/css" />
+    <link href="./css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />  
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+        	
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?">Забыли пароль?</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+			
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock is_auth">
+							<form action="#">
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+                        <ul class="userMenu">
+                        	<li><a href="#" title="Личный блог">Личный блог</a></li>
+                            <li><a href="#" title="Избранное">Избранное</a></li>
+                            <li><a href="#" title="Сообщения">Сообщения</a> <span class="counter">3</span></li>
+                        </ul>
+                        
+						<div class="authBlock">
+                          <span class="welcome">Добро пожаловать, Евгений.</span>
+                          <a class="exit" href="#">Выход</a>
+                        </div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+			<div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td class="cur">
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+									</td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+			
+			<div class="blockContent posterPage">
+				<div class="widthContent">
+					<div class="leftBlock">
+                    
+						<div class="blockLine">
+                        
+							<div class="breadcrumbs">
+                            	<ul>
+                                	<li><a href="#" title="Домой">Домой</a> <span>&rarr;</span></li>                                                                       
+                                    <li>Афиша</li>
+                                </ul>
+                            </div>
+						</div>	
+                        
+                        <div class="actionName">
+                        	<h3>Большой драматический театр исскуств «Помпея»</h3>
+                        </div>
+                        
+                        <div class="infoBlock">							
+                            
+							<div class="extInfoBlock">                            	
+								<table>
+									<tr>
+										<td>Билеты:</td>
+										<td>100-2000 р.</td>
+									</tr>
+									<tr>
+										<td>Адрес:</td>
+										<td>Театральная пл., ул. 2</td>
+									</tr>
+									<tr>
+										<td>Кассы работают:</td>
+										<td>Ежедн. 12:00-15:00, 16:00-19:00, 				касса (Б. Дмитровка, 4): ежедн. 					11:00-14:00, 15:00-19:00</td>
+									</tr>
+									<tr>
+										<td>Телефон:</td>
+										<td>+7 (495) 692-65-72, 692-00-69</td>
+									</tr>									
+								</table>
+							</div>
+                            
+                            <div class="howFind">
+                            	<p class="header">Как добраться</p>
+                                <p>На центральной площади сядьте на автоус №2 в сторону ул. Кирова, 5-ая остановка "Театр "РАМТ"</p>
+                                <span class="button"><span></span>показать на карте</span>
+                            </div>
+						</div>   
+                        
+                        <div class="actionInfoPanel">
+                        	<span class="info">
+                                <span class="descr">Рейтинг</span>
+                                <span class="rating">
+                                    <span class="cur">1</span>	
+                                    <span class="cur">2</span>
+                                    <span class="cur">3</span>
+                                    <span class="cur">4</span>
+                                    <span>5</span>										
+                                </span>
+                            </span>	
+                            
+                            <a class="site" href="#" title="http://www.ramt.ru">http://www.ramt.ru</a>
+                        
+                        	<div class="socialLinks">                             
+                              <span>
+                                <a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="vk" title="vkontakte">vkontakte</a>
+                                <a href="#" class="twitter" title="twitter">twitter</a>
+                                <a href="#" class="odnkl" title="odnoklassniki">odnoklassniki</a>
+                              </span>
+                            </div>
+                        </div>
+                        
+                       <div class="clear"></div>                                           
+                        
+                        <div class="description">
+                        
+                        	<p class="header">Описание</p>
+                            
+                            <p>Российский Академический молодежный театр был основан в 1921 году Натальей Сац. В 30-х годах нынешний РАМТ получил имя Центрального детского ... <a class="more" href="#" title="подробнее">подробнее</a></p>
+                            
+                            <p style="display:none">На исторической сцене Большого театра — опера эпохи венского сецессиона: </p>
+
+                            <p style="display:none">Композитор-модернист Рихард Штраус и драматург Гуго фон Гофмансталь привели в движение все слои венского общества, от авантюристов до графов, со вкусом высмеяли высший свет, заставили юношу переодеваться девушкой, а «кавалера розы» (проще говоря, свата) — самого стать женихом.</p>
+                            
+                            <p style="display:none">Инсценировал эту историю английский режиссер Стивен Лоулесс, бывший директор Глайндборнского фестиваля, а в главных партиях выступает приглашенная команда, одна из главных звезд которой — английский баритон Томас Аллен.</p>
+                            
+                        </div>
+                        
+                        <div class="schedule day">
+                        	<p class="header">Расписание</p>
+                            <div class="sortingTools">
+								
+								<ul>									
+									<li><a href="#" title="На три дня" class="cur"><span>На три дня</span></a></li>
+									<li><a href="#" title="На 7 дней"><span>На 7 дней</span></a></li>
+									<li><a href="#" title="На 14 дней"><span>На 14 дней</span></a></li>
+								</ul>									
+							</div>
+                            <table class="placeTable">
+                            	<tr>
+                                	<th>Название</th>
+                                    <th>Сегодня</th>
+                                    <th>26 августа</th>   
+                                    <th>27 августа</th>                                   
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<span class="descr">балет, 16+</span>
+                                    	<a href="#" title="Зеленый театр">Зеленый театр</a>
+                                    </td>
+                                    <td>19:00</td>
+                                    <td></td>
+                                    <td>19:00</td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<span class="descr">балет, 16+</span>
+                                    	<a href="#" title="Зеленый театр">Зеленый театр</a>
+                                    </td>
+                                    <td></td>
+                                    <td>19:00</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<span class="descr">балет, 16+</span>
+                                    	<a href="#" title="Зеленый театр">Зеленый театр</a>
+                                    </td>
+                                    <td>19:00</td>
+                                    <td>19:00</td>
+                                    <td>19:00</td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<span class="descr">балет, 16+</span>
+                                    	<a href="#" title="Зеленый театр">Зеленый театр</a>
+                                    </td>
+                                    <td></td>
+                                    <td>19:00</td>
+                                    <td>19:00</td>
+                                </tr>
+                                <tr>
+                                	<td>
+                                    	<span class="descr">балет, 16+</span>
+                                    	<a href="#" title="Зеленый театр">Зеленый театр</a>
+                                    </td>
+                                    <td>19:00</td>
+                                    <td></td>
+                                    <td>19:00</td>
+                                </tr>
+                            </table>
+                        </div>
+						
+                        
+					</div>
+                    
+					<div class="rightBlock">
+					
+						<ul class="profileMenu poster">
+                        	<li>Афиша</li>
+							<li><a href="#" title="Кино">Кино</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Театр">Театр</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Концерты">Концерты</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Шоу">Шоу</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Рок">Рок</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Выставки">Выставки</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Клубы">Клубы</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Встречи">Встречи</a> <span class="counter new">27</span></li>
+							<li><a href="#" title="Спорт">Спорт</a> <span class="counter new">27</span></li>	
+                            <li><a href="#" title="Детям">Детям</a> <span class="counter new">27</span></li>
+                            <li><a href="#" title="Прочее">Прочее</a> <span class="counter new">27</span></li>						
+						</ul>
+                        
+                        <div style="text-align:center;">
+                        	<span class="button addAction">Добавить мероприятие</span>
+                            
+                            <span class="button addQuestion">Задать вопрос</span>
+                        </div>
+                        
+                        <div class="banner"><a href="#" title="MTS"><img src="images/mts_left.jpg" width="240" height="400" alt="MTS" /></a></div>
+						
+									
+						
+				  </div>
+				</div>	
+                <div class="waveEdge"></div>			
+			</div>
+            
+            
+			
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>

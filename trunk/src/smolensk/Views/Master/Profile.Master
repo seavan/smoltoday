@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="Inner.Master" %>
+
+<asp:Content ID="Content0" runat="server" ContentPlaceHolderID="ContentCssClass">profilePage</asp:Content>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="TopContent" runat="server"></asp:Content>
+
+<asp:Content ID="Content5" ContentPlaceHolderID="BreadCrumbs" runat="server"></asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="LeftBlockContent" runat="server">
+    
+    <div class="blockLine">
+        <%: Html.MvcSiteMap().SiteMapPath() %>  
+    </div>
+
+    <asp:ContentPlaceHolder runat="server" ID="ProfilePage"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="RightBlockContent" runat="server">
+    
+    <asp:ContentPlaceHolder runat="server" ID="RightBlockHeader"></asp:ContentPlaceHolder>
+    
+    <%Html.RenderAction("ProfileMenu", "Profile"); %>
+
+    <div class="banner"><a href="#" title="MTS"><img src="/content/images/mts_left.jpg" width="240" height="400" alt="MTS" /></a></div>
+    
+    <asp:ContentPlaceHolder runat="server" ID="RightBlockBottom"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="BottomContent" runat="server"></asp:Content>
+
+<asp:Content ID="Scripts1" runat="server" ContentPlaceHolderID="InnerScripts">
+    
+    <script type="text/javascript" src="/Scripts/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="/Scripts/ckeditor/adapters/jquery.js"></script>
+
+    <script type="text/javascript" src="/content/js/jquery.imgareaselect.js"></script>
+    <script type="text/javascript" src="/content/js/avatarCrop.js"></script>
+    <script type="text/javascript" src="/content/js/profile.js"></script>
+
+</asp:Content>
+
+<asp:Content ID="Content6" runat="server" ContentPlaceHolderID="popUpLayer">
+    <asp:ContentPlaceHolder runat="server" ID="popUpLayer"></asp:ContentPlaceHolder>
+</asp:Content>

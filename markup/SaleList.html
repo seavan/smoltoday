@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="./js/waypoints.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.tagsphere.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.ddslick.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+    
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />  
+
+	<title>SmolToDay</title>
+</head>
+
+<body>
+	<div class="all">
+    	<div class="widthSite">
+		
+			<div class="overlayBlock">
+            	<div class="overlayLayer"></div>
+                
+                <div class="overlayForm">
+                	<span class="close"></span>
+                    
+                    <div class="formBody">
+                    	<div class="enterSocial">
+                    		<p>Войти как пользователь</p>
+                            <span class="socialLinks">
+                            	<a href="#" class="facebook" title="facebook">facebook</a>
+                                <a href="#" class="google" title="google">google</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+                            </span>
+                    	</div>
+                        
+                        <div class="enterForm auth">
+                        	<p>Войти по логину “SMOLTODAY.ru”</p>
+                            <small>Еще нет логина на “SMOLTODAY.ru”? <span>Зарегистрируйтесь!</span></small>
+                            <form action="#">
+                            	<div class="field">
+                                	<label for="emailAuth" class="_autohide">Ваш e-mail</label>
+                                	<input type="text" id="emailAuth" name="emailAuth" />
+                                </div>
+                                <div class="field">
+                                	<label for="pass" class="_autohide">Пароль</label>
+                                	<input type="password" id="pass" name="pass" />
+                                    <a href="#" title="Забыли пароль?">Забыли пароль?</a>
+                                </div>
+                                <div class="field">
+                                	<label for="remember"><input type="checkbox" id="remember" name="remember" />Запомнить меня</label>                                	
+                                </div>
+                            	<span class="button">Войти</span>
+                            </form>
+                        </div>
+                        
+                        <div class="enterForm registr">
+                        	<p>Регистрация</p>
+                            <small>Уже есть логин на “SMOLTODAY.ru”? <span>Войти</span></small>
+                            <form action="#">
+                            	<span class="leftBlock">
+									<span class="field">
+                                		<label for="f_name" class="_autohide">Имя</label>
+                                		<input type="text" id="f_name" name="f_name" />
+									</span>
+									<span class="field">
+										<label for="l_name" class="_autohide">Фамилия</label>
+										<input type="text" id="l_name" name="l_name" />
+									</span>
+									<span class="field">
+										<label for="emailReg" class="_autohide">Ваш e-mail</label>
+										<input type="text" id="emailReg" name="emailReg" />
+									</span>
+									<span class="field">
+										<label for="pass2" class="_autohide">Пароль</label>
+										<input type="password" id="pass2" name="pass2" />										
+									</span>
+									<span class="field">
+										<label for="r_pass2" class="_autohide">Пароль ещё раз</label>
+										<input type="password" id="r_pass2" name="r_pass2" />										
+									</span>
+								</span>
+								<span class="rightBlock">
+									<span class="captcha"><img src="images/captcha.jpg" width="250" height="96" alt="123" /></span>
+									<span>
+										<label for="captcha">Введите ответ: <input type="text" id="captcha" name="captcha" /></label>
+                                		
+									</span>
+								</span>
+                            	<span class="button">Готово</span>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="stickyheader hasBanner">
+            	<div class="widthContent">
+                	<div class="headerPanelStatic">
+                  
+                    	<div class="menu">                        	
+                      		<a href="#" title="О проекте">О проекте</a>							
+							<a href="#" title="F.A.Q.">F.A.Q.</a>
+                      	</div>
+						
+						<div class="searchBlock">
+							<p>Поиск по сайту</p>
+							<form action="#">								
+								<label for="search" class="_autohide">например: <i>Кинотеатры</i></label>
+								<input type="text" value="" name="search" id="search" />
+							</form>
+						</div>
+                        
+						<div class="authBlock">      
+							<a href="#" title="Регистрация" class="register">Регистрация</a>							
+							<a href="#" title="Вход" class="enter">Вход</a>
+						</div>
+						
+                	</div>
+                </div> 
+				<div class="waveEdge"></div>              
+            </div>          
+            
+            <div class="bannerTop" style="background-color:#d30627;"><a href="#" title="MTS"><img src="images/mts_top.jpg" width="1400" height="50" alt="MTS" /></a></div>
+            
+            <div class="blockHeader v2">
+            	<div class="widthContent">
+					<div class="infoBlock">
+						<div class="logoBlock">
+							<a href="#" title="SmolToDay">SmolToDay</a>
+						</div>
+						<div class="weatherBlock">
+							<div class="citySelect">
+								<p>Сейчас в <span>Смоленске</span></p>
+							</div>
+							<div class="selectedInfo">
+								<span class="time">14:54</span>
+								<span class="weather"><img src="i/wRayn.png" width="28" height="25" alt="Дождь"/>+2</span>
+							</div>
+                            
+                            
+                            
+						</div>	
+                        <div class="metrics">                        	
+                            <div class="metric t">
+                            	<p><span>Пробки</span></p>
+                            	<span class="typeMetric">7</span>
+                                <span class="infoMetric">
+                                	<span>баллов</span>
+                                    <small>движение плотное</small>
+                                </span>
+                            </div>
+                            <div class="metric d">
+                            	<p><span>Валюта</span></p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                            <div class="metric e">
+                            	<p>&nbsp;</p>
+                            	<span class="typeMetric"></span>
+                                <span class="infoMetric">
+                                	<span><b>31.62</b></span>
+                                    <small>+ 0,31</small>
+                                </span>
+                            </div>
+                        </div>					
+						
+					</div>
+					<div class="siteMenu">
+						<table>
+							<tr>
+								<td>
+									<div>
+										<a href="#" title="Новости">
+											<span class="counter">123</span>
+											<img src="i/menuNews.png" width="48" height="38" alt="Новости"/>									
+											Новости
+										</a>
+									</div>
+								</td>
+								<td>	
+									<div>	
+										<a href="#" title="Фотобанк">
+											<span class="counter">123</span>
+											<img src="i/menuPhoto.png" width="48" height="38" alt="Фотобанк"/>									
+											Фотобанк
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Фотобанк">
+											<span class="counter">89</span>
+											<img src="i/menuRestaurant.png" width="48" height="38" alt="Рестораны"/>										
+											Рестораны
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Объявления">
+											<span class="counter">12043</span>
+											<img src="i/menuAdvert.png" width="48" height="38" alt="Объявления"/>										
+											Объявления
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Афиша">
+											<span class="counter">89</span>
+											<img src="i/menuPoster.png" width="48" height="38" alt="Афиша"/>										
+											Афиша
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Компании">
+											<span class="counter">123</span>
+											<img src="i/menuCompany.png" width="48" height="38" alt="Компании"/>										
+											Компании
+										</a>
+									</div>
+								</td>
+								<td>
+									<div>
+										<a href="#" title="Скидки"><img src="i/menuDiscount.png" width="48" height="38" alt="Скидки"/>Скидки</a>
+									</div>
+									</td>									
+								<td>
+									<div>
+										<a href="#" title="Блоги"><img src="i/menuBlogs.png" width="48" height="38" alt="Блоги"/>Блоги</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+            </div>
+			
+			<div class="blockContent salePage">
+				<div class="widthContent">
+                	
+					<div class="leftBlock">
+					
+                    	<div class="blockLine">
+                        	   
+							<div class="breadcrumbs">
+							  <ul>
+								<li>
+								  <a href="javascript:void(0);" title="Главная">Главная</a>
+								  <span>→</span>
+								</li>
+								<li>Скидки</li>                                
+							  </ul>
+							</div>  
+                            
+                        </div>   
+                        
+                        <div class="saleList">
+							<h3>Скидки и акции</h3>
+							
+							<div class="sortingTools">
+								
+								<ul>									
+									<li><a href="#" title="Скидки" class="cur"><span>Скидки</span></a></li>
+									<li><a href="#" title="Распродажи"><span>Распродажи</span></a></li>
+									<li><a href="#" title="Акции"><span>Акции</span></a></li>
+									<li><a href="#" title="Скидки по банковской карте"><span>Скидки по банковской карте</span></a></li>
+								</ul>
+									
+								<div class="linkFavor">
+									<a href="#" title="Избранное">Избранное</a>
+								</div>
+							</div>
+														
+							<div class="selectorSort">
+							  <form action="#">								
+								<select id="selector_sort" name="selector_sort">
+								  <option value="1">По дате добавления</option>
+								  <option value="2">По проплаченности )</option>
+								</select>
+							  </form>
+							</div>
+							
+							<div class="blockLine">
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_1.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value red">скидки до 80%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 80% при оплате ">Скидки до 50% при оплате картой Visa</a></p>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_2.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value orange">скидки до 50%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 50% при оплате ">Скидка 7% на продукцию для держателей международных платежных систем VISA и Master Card, эмитированных Смоленским Банком</a></p>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_3.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value blue">скидки до 25%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 25% при оплате ">Скидки до 50% при оплате картой Visa</a></p>
+									</dd>
+								</dl>
+							</div>
+							<div class="blockLine">
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_4.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value red">скидки до 80%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 80% при оплате ">Скидки до 50% при оплате картой Visa</a></p>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_2.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value orange">скидки до 50%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 50% при оплате ">Скидка 7% на продукцию для держателей международных платежных систем VISA и Master Card, эмитированных Смоленским Банком</a></p>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_3.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value blue">скидки до 25%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 25% при оплате ">Скидки до 50% при оплате картой Visa</a></p>
+									</dd>
+								</dl>
+							</div>
+							<div class="blockLine">
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_1.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value red">скидки до 80%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 80% при оплате ">Скидки до 50% при оплате картой Visa</a></p>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_2.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value orange">скидки до 50%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 50% при оплате ">Скидка 7% на продукцию для держателей международных платежных систем VISA и Master Card, эмитированных Смоленским Банком</a></p>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#" title="автомир"><img src="images/sale_1.jpg" alt="автомир" /></a>
+									</dt>
+									<dd>
+										<span class="sale_value blue">скидки до 25%</span>
+										<p class="date">07.08.2013 - 21.09.2013</p>
+										<p><a href="#" title="Скидки до 25% при оплате ">Скидки до 50% при оплате картой Visa</a></p>
+									</dd>
+								</dl>
+							</div>
+							
+						</div>
+						
+                        <div class="blockLine">
+						  <div class="pager">
+							<a class="button cur" href="javascript:void(0);" title="1">1</a>
+							<a class="button" href="javascript:void(0);" title="2">2</a>
+							<a class="button" href="javascript:void(0);" title="3">3</a>
+							<a class="button" href="javascript:void(0);" title="3">4</a>
+							<a class="button" href="javascript:void(0);" title="...">...</a>
+							<a class="button" href="javascript:void(0);" title="9">9</a>
+						  </div>
+						</div>
+                          
+                                     
+                    </div>
+                    <div class="rightBlock">				
+
+						<ul class="saleMenu">
+							<li class="name">Категории скидок</li>
+							<li><a href="#" title="Авто">Авто</a></li>
+							<li><a href="#" title="Все для дома">Все для дома</a></li>
+							<li><a href="#" title="Интернет">Интернет</a></li>
+							<li><a href="#" title="Красота">Красота</a></li>
+							<!-- <li class="cur">Красота</li> это для выбранной категории -->
+							<li><a href="#" title="Одежда, обувь, аксессуары">Одежда, обувь, аксессуары</a></li>
+							<li><a href="#" title="Туризм">Туризм</a></li>
+							<li><a href="#" title="Развлечения">Развлечения</a></li>
+							<li><a href="#" title="Рестораны и кафе">Рестораны и кафе</a></li>
+							<li><a href="#" title="Разное">Разное</a></li>							
+						</ul>
+                        
+                        <div class="banner"><a href="#" title="MTS"><img src="images/mts_left.jpg" width="240" height="400" alt="MTS" /></a></div>
+                                                
+                    </div>
+            	</div>
+            </div>
+			
+		    
+            <div class="footer">
+            	<div class="footer_links">
+					<div class="widthContent">
+						<div class="siteLinks">
+							<ul>
+								<li><a href="#" title="Новости">Новости</a></li>
+								<li><a href="#" title="Фотобанк">Фотобанк</a></li>
+								<li><a href="#" title="Рестораны">Рестораны</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" title="Объявления">Объявления</a></li>
+								<li><a href="#" title="Афиша">Афиша</a></li>
+								<li><a href="#" title="Компании">Компании</a></li>
+							</ul>
+							<ul class="small">
+								<li><a href="#" title="Скидки">Скидки</a></li>
+								<li><a href="#" title="Блоги">Блоги</a></li>								
+							</ul>
+							<ul class="red">
+								<li><a href="#" title="О проекте">О проекте</a></li>
+								<li><a href="#" title="Соглашения">Соглашения</a></li>
+								<li><a href="#" title="Партнёрство">Партнёрство</a></li>
+							</ul>
+						</div>
+						<div class="socialLinks">
+							<span>Мы в сети</span>
+							<span>
+								<a href="#" class="facebook" title="facebook">facebook</a>
+								<a href="#" class="vk" title="vkontakte">vkontakte</a>
+								<a href="#" class="twitter" title="twitter">twitter</a>								
+							</span>							
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="widthContent">
+						<div class="copy">2009-2013 Смоленский портал</div>
+						<div class="authBlock"><a href="#" title="Войти">Войти</a> / <a href="#" title="Зарегистрироваться">Зарегистрироваться</a></div>
+						<div class="creator"><a href="#" title="Создание и поддержка">Создание и поддержка</a></div>
+					</div>
+				</div>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>
